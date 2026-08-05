@@ -34,7 +34,7 @@ Durante a jornada, enfrentar desafios e colorir o mundo novamente, trazendo vida
 
 ---
 
-### 🎨 Brenner
+### 🎨 Breno
 **Função:** Designer e Pixel Artist
 
 **Contato:**
