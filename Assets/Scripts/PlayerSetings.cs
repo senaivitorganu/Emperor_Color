@@ -10,6 +10,7 @@ public class PlayerSetings : MonoBehaviour
     [Header("Atributos do Player")]
     public float velocidade = 5f; // velocidade
     public float dano = 3f; // dano
+    private bool atacando = false;
 
     [Header("Sprites do Player")]
     public PlayerAnimationController playerAnim; // coloca aonde esta script
@@ -24,6 +25,33 @@ public class PlayerSetings : MonoBehaviour
     }
     public Direcao direcaoAtual = Direcao.Baixo; //variavel que vai indicar qual a direcao atual
 
+
+    IEnumerator Atacar() 
+    {
+        atacando = true;
+
+        switch (direcaoAtual)
+        {
+            case Direcao.Direita:
+                playerAnim.PlayAnimation("AttackAnimationRight");
+                break;
+
+            case Direcao.Esquerda:
+                playerAnim.PlayAnimation("AttackAnimationLeft");
+                break;
+
+            case Direcao.Cima:
+                playerAnim.PlayAnimation("AtacckAnimationBack");
+                break;
+
+            case Direcao.Baixo:
+                playerAnim.PlayAnimation("AtacckAnimationFront");
+                break;
+        }
+
+        yield return new WaitForSeconds(0.4f);
+        atacando = false;
+    }
 
     void Update()
     { 
@@ -55,26 +83,35 @@ public class PlayerSetings : MonoBehaviour
             playerAnim.PlayAnimation("ThePurpleKingWalkAnimationBack_");
         }
 
-        if (Input.GetMouseButton(0)) 
+        if (Input.GetMouseButtonDown(0) && !atacando) 
         {
-            switch (direcaoAtual) 
+            StartCoroutine(Atacar());
+        }
+
+        if (!atacando) 
+        {
+            if (Input.GetAxisRaw("Vertical") == 0 && Input.GetAxisRaw("Horizontal") == 0)
             {
-                case Direcao.Direita:
+                switch (direcaoAtual)
+                {
+                    case Direcao.Direita:
+                        playerAnim.PlayAnimation("IdlePurpleKingRightAnimation");
+                        break;
 
-                    break;
+                    case Direcao.Esquerda:
+                        playerAnim.PlayAnimation("IdlePurpleKingLeftAnimation");
+                        break;
 
-                case Direcao.Esquerda:
+                    case Direcao.Cima:
+                        playerAnim.PlayAnimation("ThePurpleKingWalkAnimationBack");
+                        break;
 
-                    break;
-
-                case Direcao.Cima:
-                    playerAnim.PlayAnimation("AtacckAnimationBack");
-                    break;
-
-                case Direcao.Baixo:
-                    playerAnim.PlayAnimation("AtacckAnimationFront");
-                    break;
+                    case Direcao.Baixo:
+                        playerAnim.PlayAnimation("IdlePurpleKingAnimation");
+                        break;
+                }
             }
         }
+
     }
 }

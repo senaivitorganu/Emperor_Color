@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 4b1362f65a57ae24d897a295e04d6f24
+guid: ff835ae99f25d1241a0eb65f1d28a7d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1381653890451534677
-    second: FrontAttackAnimation_0
+      213: 5742357015705633547
+    second: ThePurpleKingWalkAnimationBack_0
   - first:
-      213: -4390786841632908409
-    second: FrontAttackAnimation_1
-  - first:
-      213: 639897538935893001
-    second: FrontAttackAnimation_2
-  - first:
-      213: -5047440492586512499
-    second: FrontAttackAnimation_3
+      213: 7346931651073334244
+    second: ThePurpleKingWalkAnimationBack_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,57 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FrontAttackAnimation_0
+      name: ThePurpleKingWalkAnimationBack_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 9
         y: 0
-        width: 151
-        height: 480
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 55376ee94ee9c2310800000000000000
-      internalID: 1381653890451534677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrontAttackAnimation_1
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 159
-        width: 162
-        height: 321
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78bd20481aac013c0800000000000000
-      internalID: -4390786841632908409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: FrontAttackAnimation_2
-      rect:
-        serializedVersion: 2
-        x: 329
-        y: 159
         width: 142
-        height: 321
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 90cabecdb6f51e800800000000000000
-      internalID: 639897538935893001
+      spriteID: b034b9e0843f0bf40800000000000000
+      internalID: 5742357015705633547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FrontAttackAnimation_3
+      name: ThePurpleKingWalkAnimationBack_1
       rect:
         serializedVersion: 2
-        x: 479
-        y: 159
-        width: 161
-        height: 321
+        x: 169
+        y: 0
+        width: 142
+        height: 151
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8f457e4d93e3f9b0800000000000000
-      internalID: -5047440492586512499
+      spriteID: 4ebdc43396b85f560800000000000000
+      internalID: 7346931651073334244
       vertices: []
       indices: 
       edges: []
@@ -210,10 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FrontAttackAnimation_0: 1381653890451534677
-      FrontAttackAnimation_1: -4390786841632908409
-      FrontAttackAnimation_2: 639897538935893001
-      FrontAttackAnimation_3: -5047440492586512499
+      ThePurpleKingWalkAnimationBack_0: 5742357015705633547
+      ThePurpleKingWalkAnimationBack_1: 7346931651073334244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
