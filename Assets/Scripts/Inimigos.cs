@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 
 public class Inimigos : MonoBehaviour
 {
@@ -10,5 +11,14 @@ public class Inimigos : MonoBehaviour
     private void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, alvo.transform.position, velocidadeInimigo * Time.deltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Colidiu!");
+        if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 }

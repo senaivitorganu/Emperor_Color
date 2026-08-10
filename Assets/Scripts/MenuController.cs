@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class MenuController : MonoBehaviour
 {
     [SerializeField] private string NomeCenaJogo;
-    [SerializeField] private string CenaGameOver;
+    [SerializeField] private string CenaGameOver = "GameOver";
     [SerializeField] private string MenuPrincipal = "MenuPrincipal";
     [SerializeField] private GameObject painelMenuInical;
 
