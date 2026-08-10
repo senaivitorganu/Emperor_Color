@@ -27,11 +27,13 @@ public class MenuController : MonoBehaviour
         Application.Quit();
     }
 
+    //menu que vai para game over
     public void GamerOver()
     {
         SceneManager.LoadScene(CenaGameOver);
     }
-
+    
+    // void que volta para o menu
     public void VoltarMenu() 
     {
         SceneManager.LoadScene(MenuPrincipal);

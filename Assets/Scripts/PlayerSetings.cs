@@ -9,11 +9,13 @@ public class PlayerSetings : MonoBehaviour
 {
     [Header("Atributos do Player")]
     public float velocidade = 5f; // velocidade
-    public float dano = 3f; // dano
-    private bool atacando = false;
 
     [Header("Sprites do Player")]
     public PlayerAnimationController playerAnim; // coloca aonde esta script
+
+    [Header("Atributos de Ataque")]
+    public float dano = 3f; // dano
+    private bool atacando = false;
 
     // enum guarda valores igual uma lista, so que diferente de vetores que guarda numeros, ele guarda nomes.
     public enum Direcao // Enum com todas as direções
