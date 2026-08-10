@@ -34,7 +34,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ThePurpleKingWalkRightAnimation
-  m_Speed: 0.4
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -115,7 +115,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ThePurpleKingWalkAnimationBack_
-  m_Speed: 0.4
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -267,7 +267,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ThePurpleKingWalkLeftAnimation
-  m_Speed: 0.4
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -293,7 +293,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ThePurpleKingWalkAnimation
-  m_Speed: 0.4
+  m_Speed: 0.3
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []

@@ -474,6 +474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuController
   NomeCenaJogo: Jogo
+  CenaGameOver: GameOver
   painelMenuInical: {fileID: 369948477}
 --- !u!4 &832403645
 Transform:
