@@ -11,13 +11,22 @@ public class PlayerSetings : MonoBehaviour
     [Header("Atributos do Player")]
     public float velocidade = 5f; // velocidade
     public bool estaVivo = true; // se esta vivo
+    public float dano = 3f; // dano
 
     [Header("Sprites do Player")]
-    public PlayerAnimationController playerAnim; // coloca aonde esta script
+    public PlayerAnimationController playerAnim; // coloca aonde esta Anim
 
     [Header("Atributos de Ataque")]
-    public float dano = 3f; // dano
-    private bool atacando = false;
+    private bool atacando = false; // verifica se esta atacando
+
+    // colocando gameObjec da onde ira atacar
+    public GameObject atackPointFront;
+    public GameObject atackPointBack;
+    public GameObject atackPointRight;
+    public GameObject atackPointLeft;
+
+    public float radius; // tamanho do raio de ataque
+    public LayerMask inimigos; // verificar inimigos
 
     // enum guarda valores igual uma lista, so que diferente de vetores que guarda numeros, ele guarda nomes.
     public enum Direcao // Enum com todas as direções
@@ -38,23 +47,60 @@ public class PlayerSetings : MonoBehaviour
         {
             case Direcao.Direita:
                 playerAnim.PlayAnimation("AttackAnimationRight");
+
+                Collider2D[] enemyRight = Physics2D.OverlapCircleAll(atackPointRight.transform.position, radius, inimigos);
+                foreach (Collider2D enemyGameobject in enemyRight)
+                {
+                    Debug.Log("Inimigo atingido");
+                    enemyGameobject.GetComponent<Inimigos>().vidaInimigo -= dano;
+                }
+
                 break;
 
             case Direcao.Esquerda:
                 playerAnim.PlayAnimation("AttackAnimationLeft");
+
+                Collider2D[] enemyLeft = Physics2D.OverlapCircleAll(atackPointLeft.transform.position, radius, inimigos);
+                foreach (Collider2D enemyGameobject in enemyLeft)
+                {
+                    Debug.Log("Inimigo atingido");
+                    enemyGameobject.GetComponent<Inimigos>().vidaInimigo -= dano;
+                }
+
                 break;
 
             case Direcao.Cima:
                 playerAnim.PlayAnimation("AtacckAnimationBack");
+
+                Collider2D[] enemyBack = Physics2D.OverlapCircleAll(atackPointBack.transform.position, radius, inimigos);
+                foreach (Collider2D enemyGameobject in enemyBack)
+                {
+                    Debug.Log("Inimigo atingido");
+                    enemyGameobject.GetComponent<Inimigos>().vidaInimigo -= dano;
+                }
+
                 break;
 
             case Direcao.Baixo:
                 playerAnim.PlayAnimation("AtacckAnimationFront");
+
+                Collider2D[] enemy = Physics2D.OverlapCircleAll(atackPointFront.transform.position, radius, inimigos);
+                foreach (Collider2D enemyGameobject in enemy) 
+                {
+                    Debug.Log("Inimigo atingido");
+                    enemyGameobject.GetComponent<Inimigos>().vidaInimigo -= dano;
+                }
+
                 break;
         }
 
         yield return new WaitForSeconds(0.4f);
         atacando = false;
+    }
+
+    private void OnDrawGizmos()
+    {
+
     }
 
     void Update()

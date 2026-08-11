@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class Inimigos : MonoBehaviour
 {
@@ -16,6 +17,11 @@ public class Inimigos : MonoBehaviour
     private void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, alvo.transform.position, velocidadeInimigo * Time.deltaTime); //codigo para o inimigo seguir o player
+
+        if (vidaInimigo <= 0) 
+        {
+            Destroy(gameObject); // caso a vida do inimigo seja menor ou igual a 0 ele vai ser destruido
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other) // quando trigger for ativo
