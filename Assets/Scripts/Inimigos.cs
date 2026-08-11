@@ -20,6 +20,7 @@ public class Inimigos : MonoBehaviour
 
         if (vidaInimigo <= 0) 
         {
+            FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
             Destroy(gameObject); // caso a vida do inimigo seja menor ou igual a 0 ele vai ser destruido
         }
     }

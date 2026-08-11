@@ -100,7 +100,10 @@ public class PlayerSetings : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-
+       // Gizmos.DrawWireSphere(atackPointFront.transform.position, radius);
+       // Gizmos.DrawWireSphere(atackPointBack.transform.position, radius);
+       // Gizmos.DrawWireSphere(atackPointRight.transform.position, radius);
+       // Gizmos.DrawWireSphere(atackPointLeft.transform.position, radius);
     }
 
     void Update()
