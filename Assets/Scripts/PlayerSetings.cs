@@ -46,8 +46,9 @@ public class PlayerSetings : MonoBehaviour
         switch (direcaoAtual)
         {
             case Direcao.Direita:
-                playerAnim.PlayAnimation("AttackAnimationRight");
+                playerAnim.PlayAnimation("AttackAnimationRight"); // exiber ataque para direita
 
+                // verifica se tem inimigos na frente do player e da dano a eles
                 Collider2D[] enemyRight = Physics2D.OverlapCircleAll(atackPointRight.transform.position, radius, inimigos);
                 foreach (Collider2D enemyGameobject in enemyRight)
                 {
@@ -55,11 +56,13 @@ public class PlayerSetings : MonoBehaviour
                     enemyGameobject.GetComponent<Inimigos>().vidaInimigo -= dano;
                 }
 
+                //fim do case
                 break;
 
             case Direcao.Esquerda:
-                playerAnim.PlayAnimation("AttackAnimationLeft");
+                playerAnim.PlayAnimation("AttackAnimationLeft"); // exiber ataque para esquerda
 
+                // verifica se tem inimigos na frente do player e da dano a eles
                 Collider2D[] enemyLeft = Physics2D.OverlapCircleAll(atackPointLeft.transform.position, radius, inimigos);
                 foreach (Collider2D enemyGameobject in enemyLeft)
                 {
@@ -67,11 +70,13 @@ public class PlayerSetings : MonoBehaviour
                     enemyGameobject.GetComponent<Inimigos>().vidaInimigo -= dano;
                 }
 
+                //fim do case
                 break;
 
             case Direcao.Cima:
-                playerAnim.PlayAnimation("AtacckAnimationBack");
+                playerAnim.PlayAnimation("AtacckAnimationBack"); // exiber ataque para cima
 
+                // verifica se tem inimigos na frente do player e da dano a eles
                 Collider2D[] enemyBack = Physics2D.OverlapCircleAll(atackPointBack.transform.position, radius, inimigos);
                 foreach (Collider2D enemyGameobject in enemyBack)
                 {
@@ -79,18 +84,20 @@ public class PlayerSetings : MonoBehaviour
                     enemyGameobject.GetComponent<Inimigos>().vidaInimigo -= dano;
                 }
 
+                // fim do case
                 break;
 
             case Direcao.Baixo:
-                playerAnim.PlayAnimation("AtacckAnimationFront");
+                playerAnim.PlayAnimation("AtacckAnimationFront"); // exiber ataque para baixo
 
+                // verifica se tem inimigos na frente do player e da dano a eles
                 Collider2D[] enemy = Physics2D.OverlapCircleAll(atackPointFront.transform.position, radius, inimigos);
                 foreach (Collider2D enemyGameobject in enemy) 
                 {
                     Debug.Log("Inimigo atingido");
                     enemyGameobject.GetComponent<Inimigos>().vidaInimigo -= dano;
                 }
-
+                // fim do case
                 break;
         }
 
@@ -111,7 +118,7 @@ public class PlayerSetings : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && !atacando) 
         {
-            StartCoroutine(Atacar());
+            StartCoroutine(Atacar()); // caso apertar o botão esquerdo do mouse e ele nao estiver atacando, ele vai atacar
         }
 
         if (!atacando) 
@@ -152,19 +159,19 @@ public class PlayerSetings : MonoBehaviour
                 switch (direcaoAtual)
                 {
                     case Direcao.Direita:
-                        playerAnim.PlayAnimation("IdlePurpleKingRightAnimation");
+                        playerAnim.PlayAnimation("IdlePurpleKingRightAnimation"); // idle para direita
                         break;
 
                     case Direcao.Esquerda:
-                        playerAnim.PlayAnimation("IdlePurpleKingLeftAnimation");
+                        playerAnim.PlayAnimation("IdlePurpleKingLeftAnimation"); // idle para esquerda
                         break;
 
                     case Direcao.Cima:
-                        playerAnim.PlayAnimation("ThePurpleKingWalkAnimationBack");
+                        playerAnim.PlayAnimation("ThePurpleKingWalkAnimationBack"); // idle para cima
                         break;
 
                     case Direcao.Baixo:
-                        playerAnim.PlayAnimation("IdlePurpleKingAnimation");
+                        playerAnim.PlayAnimation("IdlePurpleKingAnimation"); // idle para baixo
                         break;
                 }
             }
