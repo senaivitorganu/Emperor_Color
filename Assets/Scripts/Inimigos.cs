@@ -25,18 +25,20 @@ public class Inimigos : MonoBehaviour
         if(estaVivo == false) 
         {
             inimigoAnim.PlayAnimation("EnemyIrregularDie"); // vai exibir a animação de morte do inimigo
-
-            FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
             yield return new WaitForSeconds(0.5f);// vai dar um tempo de 0.5 segundos para a animação de morte do inimigo ser exibida
+            FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
             Destroy(gameObject); // caso a vida do inimigo seja menor ou igual a 0 ele vai ser destruido
         }
     }
 
     void Update()
     {
-        transform.position = Vector3.MoveTowards(transform.position, alvo.transform.position, velocidadeInimigo * Time.deltaTime); //codigo para o inimigo seguir o player
+        if (estaVivo == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, alvo.transform.position, velocidadeInimigo * Time.deltaTime); //codigo para o inimigo seguir o player
+        }
 
-        if (vidaInimigo <= 0) 
+        if (vidaInimigo <= 0 && estaVivo == true)
         {
             estaVivo = false;
             StartCoroutine(Morrer()); // vai chamar a função de morrer
