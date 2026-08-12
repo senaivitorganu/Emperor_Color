@@ -5,6 +5,17 @@ public class QuadrosController : MonoBehaviour
     private SpriteRenderer sp;
     private bool quadroPintado = false;
 
+    private Color corEscolhida; // variável para armazenar a cor escolhida pelo jogador
+    public Color[] cores =
+    {
+        Color.red,
+        Color.blue,
+        Color.green,
+        Color.yellow,
+        Color.magenta,
+        Color.cyan
+    };// array de cores para os quadros
+
     void Start()
     {
         sp = GetComponent<SpriteRenderer>();
@@ -16,7 +27,10 @@ public class QuadrosController : MonoBehaviour
     {
         if (quadroPintado == false) 
         {
+            Color corEscolhida = cores[Random.Range(0, cores.Length)];
+
             sp.enabled = true;
+            sp.color = corEscolhida;
             quadroPintado=true;
             FaseSetting.instance.ContarBlocos(); // chama a função ContarBlocos() da classe FaseSetting para contar os blocos pintados
         }
