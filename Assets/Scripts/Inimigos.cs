@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.Video;
 using UnityEngine.SceneManagement;
 using Unity.VisualScripting;
+using System.Collections;
 
 public class Inimigos : MonoBehaviour
 {
@@ -9,23 +10,40 @@ public class Inimigos : MonoBehaviour
     [Header("Atributos do Inimigo")]
     public float velocidadeInimigo = 2f;
     public float vidaInimigo = 5;
+    private bool estaVivo = true;
 
     //variaveis de seguir o player
     [Header("Seguir o Player")]
     public Transform alvo;
 
-    private void Update()
+    [Header("Sprites Inimigo")]
+    public InimigoAnimationController inimigoAnim;
+
+
+    IEnumerator Morrer() 
+    {
+        if(estaVivo == false) 
+        {
+            inimigoAnim.PlayAnimation("EnemyIrregularDie"); // vai exibir a animação de morte do inimigo
+
+            FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
+            yield return new WaitForSeconds(0.5f);
+            Destroy(gameObject); // caso a vida do inimigo seja menor ou igual a 0 ele vai ser destruido
+        }
+    }
+
+    void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, alvo.transform.position, velocidadeInimigo * Time.deltaTime); //codigo para o inimigo seguir o player
 
         if (vidaInimigo <= 0) 
         {
-            FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
-            Destroy(gameObject); // caso a vida do inimigo seja menor ou igual a 0 ele vai ser destruido
+            estaVivo = false;
+            StartCoroutine(Morrer()); // vai chamar a função de morrer
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other) // quando trigger for ativo
+    void OnTriggerEnter2D(Collider2D other) // quando trigger for ativo
     {
         if (other.CompareTag("Player")) // vai fazer a coparação se tem a tag player
         {

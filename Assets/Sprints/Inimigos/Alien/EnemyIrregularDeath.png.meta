@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: 41a3b3efc0850d24897a6e02605027c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7744290315868072456
+    second: EnemyIrregularDeath_0
+  - first:
+      213: -1043843158153966685
+    second: EnemyIrregularDeath_1
+  - first:
+      213: 3583580378743661735
+    second: EnemyIrregularDeath_2
+  - first:
+      213: 6579127528438501884
+    second: EnemyIrregularDeath_3
+  - first:
+      213: -5570303838143545079
+    second: EnemyIrregularDeath_4
+  - first:
+      213: -6425918694644416422
+    second: EnemyIrregularDeath_5
+  - first:
+      213: 2022140351901559123
+    second: EnemyIrregularDeath_6
+  - first:
+      213: 2983746209651542892
+    second: EnemyIrregularDeath_7
+  - first:
+      213: 4865729872548965676
+    second: EnemyIrregularDeath_8
+  - first:
+      213: 2219059868957569731
+    second: EnemyIrregularDeath_9
+  - first:
+      213: 4584766231687516976
+    second: EnemyIrregularDeath_10
+  - first:
+      213: 405494892606144442
+    second: EnemyIrregularDeath_11
+  - first:
+      213: -6748521239422542902
+    second: EnemyIrregularDeath_12
+  - first:
+      213: -383810206645016252
+    second: EnemyIrregularDeath_13
+  - first:
+      213: -8891729773766934695
+    second: EnemyIrregularDeath_14
+  - first:
+      213: -4851359469524392828
+    second: EnemyIrregularDeath_15
+  - first:
+      213: -3864442964003229743
+    second: EnemyIrregularDeath_16
+  - first:
+      213: 4217149155203917532
+    second: EnemyIrregularDeath_17
+  - first:
+      213: -6614967567905402804
+    second: EnemyIrregularDeath_18
+  - first:
+      213: 7462957146987594663
+    second: EnemyIrregularDeath_19
+  - first:
+      213: -1033898363135956296
+    second: EnemyIrregularDeath_20
+  - first:
+      213: 8004069960898571558
+    second: EnemyIrregularDeath_21
+  - first:
+      213: 1525423718803630160
+    second: EnemyIrregularDeath_22
+  - first:
+      213: 6277680772590672430
+    second: EnemyIrregularDeath_23
+  - first:
+      213: 9105896104224259300
+    second: EnemyIrregularDeath_24
+  - first:
+      213: 7496029139940223784
+    second: EnemyIrregularDeath_25
+  - first:
+      213: 3125826293710823282
+    second: EnemyIrregularDeath_26
+  - first:
+      213: -4548029735913937341
+    second: EnemyIrregularDeath_27
+  - first:
+      213: -8801421665265414946
+    second: EnemyIrregularDeath_28
+  - first:
+      213: 7318794070374861391
+    second: EnemyIrregularDeath_29
+  - first:
+      213: 3055039984692298800
+    second: EnemyIrregularDeath_30
+  - first:
+      213: 2052904769932962487
+    second: EnemyIrregularDeath_31
+  - first:
+      213: -3251664236384394968
+    second: EnemyIrregularDeath_32
+  - first:
+      213: -2205189409511118005
+    second: EnemyIrregularDeath_33
+  - first:
+      213: 7620940984567421719
+    second: EnemyIrregularDeath_34
+  - first:
+      213: -2838168752854259326
+    second: EnemyIrregularDeath_35
+  - first:
+      213: -2248084463936396579
+    second: EnemyIrregularDeath_36
+  - first:
+      213: 7876942748662277750
+    second: EnemyIrregularDeath_37
+  - first:
+      213: 2602284949795066279
+    second: EnemyIrregularDeath_38
+  - first:
+      213: 8911759846071864964
+    second: EnemyIrregularDeath_39
+  - first:
+      213: -8172863700629696110
+    second: EnemyIrregularDeath_40
+  - first:
+      213: 5108799474009564842
+    second: EnemyIrregularDeath_41
+  - first:
+      213: -724051940860925849
+    second: EnemyIrregularDeath_42
+  - first:
+      213: -6419208925456295917
+    second: EnemyIrregularDeath_43
+  - first:
+      213: -1906297130946810428
+    second: EnemyIrregularDeath_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a60d2e20f397b60800000000000000
+      internalID: 7744290315868072456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abc20d9d268381f0800000000000000
+      internalID: -1043843158153966685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_2
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4631b2e5f6bb130800000000000000
+      internalID: 3583580378743661735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_3
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf1129021a1cd4b50800000000000000
+      internalID: 6579127528438501884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_4
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90185740c2e42b2b0800000000000000
+      internalID: -5570303838143545079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_5
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a508d224efc82d6a0800000000000000
+      internalID: -6425918694644416422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_6
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3596311bfe5101c10800000000000000
+      internalID: 2022140351901559123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_7
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bc23e7e55686920800000000000000
+      internalID: 2983746209651542892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_8
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2da9421a8b868340800000000000000
+      internalID: 4865729872548965676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_9
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c27a88913fabce10800000000000000
+      internalID: 2219059868957569731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_10
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d7e751d61c791468400be0611629a0
+      internalID: 4584766231687516976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_11
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feba8e51a10fde14890a5b419480ad0c
+      internalID: 405494892606144442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_12
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba26da0218877c448271800d104a5a7
+      internalID: -6748521239422542902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_13
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66e2ef66a802f44bb0c22462f73627f
+      internalID: -383810206645016252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_14
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a964ee1442c5b4743b5f7f19c679df97
+      internalID: -8891729773766934695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularDeath_15
+      rect:
+        serializedVersion: 2
+        x: 2430
+        y: 0
+        width: 162
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2559647fbd12d5445b7bc5f7b858e79c
+      internalID: -4851359469524392828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cc37e3bc6ba4a7c4bb5df03139a5be0a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":162.0,"y":160.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      EnemyIrregularDeath_0: 7744290315868072456
+      EnemyIrregularDeath_1: -1043843158153966685
+      EnemyIrregularDeath_10: 4584766231687516976
+      EnemyIrregularDeath_11: 405494892606144442
+      EnemyIrregularDeath_12: -6748521239422542902
+      EnemyIrregularDeath_13: -383810206645016252
+      EnemyIrregularDeath_14: -8891729773766934695
+      EnemyIrregularDeath_15: -4851359469524392828
+      EnemyIrregularDeath_2: 3583580378743661735
+      EnemyIrregularDeath_3: 6579127528438501884
+      EnemyIrregularDeath_4: -5570303838143545079
+      EnemyIrregularDeath_5: -6425918694644416422
+      EnemyIrregularDeath_6: 2022140351901559123
+      EnemyIrregularDeath_7: 2983746209651542892
+      EnemyIrregularDeath_8: 4865729872548965676
+      EnemyIrregularDeath_9: 2219059868957569731
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
