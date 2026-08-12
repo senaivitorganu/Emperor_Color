@@ -27,7 +27,7 @@ public class Inimigos : MonoBehaviour
             inimigoAnim.PlayAnimation("EnemyIrregularDie"); // vai exibir a animação de morte do inimigo
 
             FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.5f);// vai dar um tempo de 0.5 segundos para a animação de morte do inimigo ser exibida
             Destroy(gameObject); // caso a vida do inimigo seja menor ou igual a 0 ele vai ser destruido
         }
     }

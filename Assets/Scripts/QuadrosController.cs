@@ -3,6 +3,7 @@ using UnityEngine;
 public class QuadrosController : MonoBehaviour
 {
     private SpriteRenderer sp;
+    private bool quadroPintado = false;
 
     void Start()
     {
@@ -13,7 +14,12 @@ public class QuadrosController : MonoBehaviour
     
     public void ShowQuadro() // função para exibir os quadros
     {
-        sp.enabled = true;
+        if (quadroPintado == false) 
+        {
+            sp.enabled = true;
+            quadroPintado=true;
+            FaseSetting.instance.ContarBlocos(); // chama a função ContarBlocos() da classe FaseSetting para contar os blocos pintados
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D other) // trigger para detectar quando o jogador entra na área do quadro
