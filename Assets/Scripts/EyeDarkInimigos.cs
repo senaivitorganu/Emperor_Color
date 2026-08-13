@@ -7,6 +7,7 @@ public class EyeDarkInimigos : MonoBehaviour
     public float velocidadeInimigo = 2f;
     public float vidaInimigo = 2;
     public bool estaVivo = true;
+    public bool estaAtacando = false;
 
     [Header("Perseguir")]
     public Transform player;
@@ -15,10 +16,18 @@ public class EyeDarkInimigos : MonoBehaviour
     [Header("Sprites")]
     public InimigoAnimationController inimigoAnim;
 
+    [Header("Poder")]
+    public GameObject PrefabBall;
+    public Transform SpawnPoint;
+
     IEnumerator Atacar() 
     {
         inimigoAnim.PlayAnimation("EyeOfDarkProjectilesAttack");
-        yield return new WaitForSeconds(0.5f);// vai dar um tempo de 0.5 segundos
+        yield return new WaitForSeconds(0.3f);// vai dar um tempo de 0.3 segundos
+        Instantiate(PrefabBall, SpawnPoint.position, Quaternion.identity);
+
+        estaAtacando = false;
+        
     }
 
     void Update()
@@ -32,7 +41,11 @@ public class EyeDarkInimigos : MonoBehaviour
         
         if (distancePlayer <= 5 && estaVivo) 
         {
-            StartCoroutine(Atacar());
+            if (!estaAtacando)
+            {
+                estaAtacando= true;
+                StartCoroutine(Atacar());
+            }
         }
     }
 }
