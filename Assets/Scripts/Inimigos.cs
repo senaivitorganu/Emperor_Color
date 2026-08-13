@@ -6,7 +6,7 @@ using System.Collections;
 
 public class Inimigos : MonoBehaviour
 {
-    // variais de atributos do player
+    // variais de atributos do inimigo
     [Header("Atributos do Inimigo")]
     public float velocidadeInimigo = 2f;
     public float vidaInimigo = 5;
