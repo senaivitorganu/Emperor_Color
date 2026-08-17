@@ -192,5 +192,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48cbe820240ee564b995cc63fe7e01c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BallEye
-  velocidade: 5
+  velocidade: 4
   alvo: {fileID: 0}

@@ -2304,7 +2304,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -26757,6 +26757,7 @@ MonoBehaviour:
   velocidadeInimigo: 2
   vidaInimigo: 5
   estaVivo: 1
+  estaAtacando: 0
   player: {fileID: 464680357}
   distancePlayer: 0
   inimigoAnim: {fileID: 2067365971}
@@ -28504,6 +28505,10 @@ PrefabInstance:
       propertyPath: alvo
       value: 
       objectReference: {fileID: 464680357}
+    - target: {fileID: 3445182901713594426, guid: 26c9ae7803cf4af45ba7cbb4f497b3b5, type: 3}
+      propertyPath: velocidade
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 4557348975070921309, guid: 26c9ae7803cf4af45ba7cbb4f497b3b5, type: 3}
       propertyPath: m_Name
       value: BallProjectile_0

@@ -41,22 +41,88 @@ public class PlayerSetings : MonoBehaviour
 
     public void darDano()
     {
-        // verifica se tem inimigos na frente do player e da dano a eles
-        Collider2D[] enemyRight = Physics2D.OverlapCircleAll(atackPointRight.transform.position, radius, inimigos);
-        foreach (Collider2D enemyGameobject in enemyRight)
+        switch (direcaoAtual) 
         {
-            Debug.Log("Inimigo atingido");
-            Inimigos inimigoIrregular = enemyGameobject.GetComponent<Inimigos>();
-            EyeDarkInimigos inimigoEye = enemyGameobject.GetComponent<EyeDarkInimigos>();
 
-            if (inimigoIrregular != null)
-            {
-                inimigoIrregular.vidaInimigo -= dano;
-            }
-            else if (inimigoEye != null)
-            {
-                inimigoEye.vidaInimigo -= dano;
-            }
+            case Direcao.Baixo:
+                // verifica se tem inimigos na frente do player e da dano a eles
+                Collider2D[] enemyDown = Physics2D.OverlapCircleAll(atackPointFront.transform.position, radius, inimigos);
+                foreach (Collider2D enemyGameobject in enemyDown)
+                {
+                    Debug.Log("Inimigo atingido");
+                    Inimigos inimigoIrregular = enemyGameobject.GetComponent<Inimigos>();
+                    EyeDarkInimigos inimigoEye = enemyGameobject.GetComponent<EyeDarkInimigos>();
+
+                    if (inimigoIrregular != null)
+                    {
+                        inimigoIrregular.vidaInimigo -= dano;
+                    }
+                    else if (inimigoEye != null)
+                    {
+                        inimigoEye.vidaInimigo -= dano;
+                    }
+                }
+                break;
+
+            case Direcao.Cima:
+                // verifica se tem inimigos na frente do player e da dano a eles
+                Collider2D[] enemyUp = Physics2D.OverlapCircleAll(atackPointBack.transform.position, radius, inimigos);
+                foreach (Collider2D enemyGameobject in enemyUp)
+                {
+                    Debug.Log("Inimigo atingido");
+                    Inimigos inimigoIrregular = enemyGameobject.GetComponent<Inimigos>();
+                    EyeDarkInimigos inimigoEye = enemyGameobject.GetComponent<EyeDarkInimigos>();
+
+                    if (inimigoIrregular != null)
+                    {
+                        inimigoIrregular.vidaInimigo -= dano;
+                    }
+                    else if (inimigoEye != null)
+                    {
+                        inimigoEye.vidaInimigo -= dano;
+                    }
+                }
+                break;
+
+            case Direcao.Esquerda:
+                // verifica se tem inimigos na frente do player e da dano a eles
+                Collider2D[] enemyLeft = Physics2D.OverlapCircleAll(atackPointLeft.transform.position, radius, inimigos);
+                foreach (Collider2D enemyGameobject in enemyLeft)
+                {
+                    Debug.Log("Inimigo atingido");
+                    Inimigos inimigoIrregular = enemyGameobject.GetComponent<Inimigos>();
+                    EyeDarkInimigos inimigoEye = enemyGameobject.GetComponent<EyeDarkInimigos>();
+
+                    if (inimigoIrregular != null)
+                    {
+                        inimigoIrregular.vidaInimigo -= dano;
+                    }
+                    else if (inimigoEye != null)
+                    {
+                        inimigoEye.vidaInimigo -= dano;
+                    }
+                }
+                break;
+
+            case Direcao.Direita:
+                // verifica se tem inimigos na frente do player e da dano a eles
+                Collider2D[] enemyRight = Physics2D.OverlapCircleAll(atackPointRight.transform.position, radius, inimigos);
+                foreach (Collider2D enemyGameobject in enemyRight)
+                {
+                    Debug.Log("Inimigo atingido");
+                    Inimigos inimigoIrregular = enemyGameobject.GetComponent<Inimigos>();
+                    EyeDarkInimigos inimigoEye = enemyGameobject.GetComponent<EyeDarkInimigos>();
+
+                    if (inimigoIrregular != null)
+                    {
+                        inimigoIrregular.vidaInimigo -= dano;
+                    }
+                    else if (inimigoEye != null)
+                    {
+                        inimigoEye.vidaInimigo -= dano;
+                    }
+                }
+                break;
         }
     }
 
@@ -100,10 +166,10 @@ public class PlayerSetings : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-       // Gizmos.DrawWireSphere(atackPointFront.transform.position, radius);
-       // Gizmos.DrawWireSphere(atackPointBack.transform.position, radius);
-       // Gizmos.DrawWireSphere(atackPointRight.transform.position, radius);
-       // Gizmos.DrawWireSphere(atackPointLeft.transform.position, radius);
+       //Gizmos.DrawWireSphere(atackPointFront.transform.position, radius);
+       //Gizmos.DrawWireSphere(atackPointBack.transform.position, radius);
+       //Gizmos.DrawWireSphere(atackPointRight.transform.position, radius);
+       //Gizmos.DrawWireSphere(atackPointLeft.transform.position, radius);
     }
 
     void Update()

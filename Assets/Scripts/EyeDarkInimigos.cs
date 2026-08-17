@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class EyeDarkInimigos : MonoBehaviour
 {
@@ -22,12 +23,15 @@ public class EyeDarkInimigos : MonoBehaviour
 
     IEnumerator Atacar() 
     {
-        inimigoAnim.PlayAnimation("EyeOfDarkProjectilesAttack");
-        yield return new WaitForSeconds(0.3f);// vai dar um tempo de 0.3 segundos
-        Instantiate(PrefabBall, SpawnPoint.position, Quaternion.identity);
+        if(estaAtacando == true) 
+        {
+            inimigoAnim.PlayAnimation("EyeOfDarkProjectilesAttack");
+            Instantiate(PrefabBall, SpawnPoint.position, Quaternion.identity);
+            yield return new WaitForSeconds(1f);// vai dar um tempo de 1 segundos
+        }
 
         estaAtacando = false;
-        
+        inimigoAnim.PlayAnimation("EyeOfDark");
     }
 
     void Update()
@@ -46,6 +50,12 @@ public class EyeDarkInimigos : MonoBehaviour
                 estaAtacando= true;
                 StartCoroutine(Atacar());
             }
+        }
+
+        if(vidaInimigo <= 0) 
+        {
+            Destroy(gameObject);
+            FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
         }
     }
 }
