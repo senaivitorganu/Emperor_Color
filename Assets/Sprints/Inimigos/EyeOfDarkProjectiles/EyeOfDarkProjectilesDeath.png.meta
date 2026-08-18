@@ -1,0 +1,614 @@
+fileFormatVersion: 2
+guid: 4dc3a01bdb5dcdb48abb11900679cb0e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4231392411523146088
+    second: EyeOfDarkProjectilesDeath_0
+  - first:
+      213: 1581355438403354773
+    second: EyeOfDarkProjectilesDeath_1
+  - first:
+      213: -3397114051681212369
+    second: EyeOfDarkProjectilesDeath_2
+  - first:
+      213: 7431748576120845649
+    second: EyeOfDarkProjectilesDeath_3
+  - first:
+      213: 5737924225452984875
+    second: EyeOfDarkProjectilesDeath_4
+  - first:
+      213: 6018686023725757265
+    second: EyeOfDarkProjectilesDeath_5
+  - first:
+      213: -2969941060311780149
+    second: EyeOfDarkProjectilesDeath_6
+  - first:
+      213: 5062862246108365483
+    second: EyeOfDarkProjectilesDeath_7
+  - first:
+      213: -4099768966226477550
+    second: EyeOfDarkProjectilesDeath_8
+  - first:
+      213: -8024301146933018674
+    second: EyeOfDarkProjectilesDeath_9
+  - first:
+      213: 1584255247585988529
+    second: EyeOfDarkProjectilesDeath_10
+  - first:
+      213: -1077396824444180842
+    second: EyeOfDarkProjectilesDeath_11
+  - first:
+      213: -3122258011952427049
+    second: EyeOfDarkProjectilesDeath_12
+  - first:
+      213: 6931395594495135880
+    second: EyeOfDarkProjectilesDeath_13
+  - first:
+      213: 2198410752720111273
+    second: EyeOfDarkProjectilesDeath_14
+  - first:
+      213: -8788416803764979857
+    second: EyeOfDarkProjectilesDeath_15
+  - first:
+      213: -6716978530959544047
+    second: EyeOfDarkProjectilesDeath_16
+  - first:
+      213: -8281380922295236921
+    second: EyeOfDarkProjectilesDeath_17
+  - first:
+      213: 8455215933299416415
+    second: EyeOfDarkProjectilesDeath_18
+  - first:
+      213: -8504139322018189768
+    second: EyeOfDarkProjectilesDeath_19
+  - first:
+      213: 4810872089150494996
+    second: EyeOfDarkProjectilesDeath_20
+  - first:
+      213: 1871520806429686913
+    second: EyeOfDarkProjectilesDeath_21
+  - first:
+      213: 7862145519822183284
+    second: EyeOfDarkProjectilesDeath_22
+  - first:
+      213: 8381856138753114013
+    second: EyeOfDarkProjectilesDeath_23
+  - first:
+      213: -6845088715533007764
+    second: EyeOfDarkProjectilesDeath_24
+  - first:
+      213: -1852551347336803266
+    second: EyeOfDarkProjectilesDeath_25
+  - first:
+      213: -3782214359887706420
+    second: EyeOfDarkProjectilesDeath_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e11e545031745c0800000000000000
+      internalID: -4231392411523146088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_1
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5900aa1946a12f510800000000000000
+      internalID: 1581355438403354773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_2
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28ad08c4c60bd0d0800000000000000
+      internalID: -3397114051681212369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_3
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155b2b374ffd22760800000000000000
+      internalID: 7431748576120845649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2acb36aea331af40800000000000000
+      internalID: 5737924225452984875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15338cadc0ba68350800000000000000
+      internalID: 6018686023725757265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_6
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4f4405756a8c6d0800000000000000
+      internalID: -2969941060311780149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_7
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2860e7366e24640800000000000000
+      internalID: 5062862246108365483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_8
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e76e2c8d1ba17c0800000000000000
+      internalID: -4099768966226477550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_9
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf3c461f94f3a090800000000000000
+      internalID: -8024301146933018674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_10
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf49e101c76cf510800000000000000
+      internalID: 1584255247585988529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_11
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696eed4eb415c01f0800000000000000
+      internalID: -1077396824444180842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_12
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df457c61e28ba4d0800000000000000
+      internalID: -3122258011952427049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_13
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880179fa193413060800000000000000
+      internalID: 6931395594495135880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_14
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a608429ee2528e10800000000000000
+      internalID: 2198410752720111273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_15
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67b381ea75490680800000000000000
+      internalID: -8788416803764979857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_16
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1113b3a3d9f78c2a0800000000000000
+      internalID: -6716978530959544047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EyeOfDarkProjectilesDeath_17
+      rect:
+        serializedVersion: 2
+        x: 3060
+        y: 0
+        width: 180
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c645e48def921d80800000000000000
+      internalID: -8281380922295236921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6bb4a2f11946fad4eba8a075b66f370c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":180.0,"y":180.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      EyeOfDarkProjectilesDeath_0: -4231392411523146088
+      EyeOfDarkProjectilesDeath_1: 1581355438403354773
+      EyeOfDarkProjectilesDeath_10: 1584255247585988529
+      EyeOfDarkProjectilesDeath_11: -1077396824444180842
+      EyeOfDarkProjectilesDeath_12: -3122258011952427049
+      EyeOfDarkProjectilesDeath_13: 6931395594495135880
+      EyeOfDarkProjectilesDeath_14: 2198410752720111273
+      EyeOfDarkProjectilesDeath_15: -8788416803764979857
+      EyeOfDarkProjectilesDeath_16: -6716978530959544047
+      EyeOfDarkProjectilesDeath_17: -8281380922295236921
+      EyeOfDarkProjectilesDeath_2: -3397114051681212369
+      EyeOfDarkProjectilesDeath_3: 7431748576120845649
+      EyeOfDarkProjectilesDeath_4: 5737924225452984875
+      EyeOfDarkProjectilesDeath_5: 6018686023725757265
+      EyeOfDarkProjectilesDeath_6: -2969941060311780149
+      EyeOfDarkProjectilesDeath_7: 5062862246108365483
+      EyeOfDarkProjectilesDeath_8: -4099768966226477550
+      EyeOfDarkProjectilesDeath_9: -8024301146933018674
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

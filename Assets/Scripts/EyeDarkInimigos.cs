@@ -23,7 +23,9 @@ public class EyeDarkInimigos : MonoBehaviour
 
     IEnumerator Atacar() 
     {
-        if(estaAtacando == true) 
+        estaAtacando = true;
+
+        if (estaAtacando == true && estaVivo == true) 
         {
             inimigoAnim.PlayAnimation("EyeOfDarkProjectilesAttack");
             Instantiate(PrefabBall, SpawnPoint.position, Quaternion.identity);
@@ -32,6 +34,15 @@ public class EyeDarkInimigos : MonoBehaviour
 
         estaAtacando = false;
         inimigoAnim.PlayAnimation("EyeOfDark");
+    }
+
+    IEnumerator Morrer() 
+    {
+        estaVivo = false;
+        inimigoAnim.PlayAnimation("EyeOfDarkDie");
+        yield return new WaitForSeconds(1f);// vai dar um tempo de 1 segundos
+        FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
+        Destroy(gameObject);
     }
 
     void Update()
@@ -47,15 +58,13 @@ public class EyeDarkInimigos : MonoBehaviour
         {
             if (!estaAtacando)
             {
-                estaAtacando= true;
                 StartCoroutine(Atacar());
             }
         }
 
         if(vidaInimigo <= 0) 
         {
-            Destroy(gameObject);
-            FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
+            StartCoroutine(Morrer());
         }
     }
 }

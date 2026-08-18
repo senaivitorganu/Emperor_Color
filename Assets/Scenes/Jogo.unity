@@ -3002,7 +3002,7 @@ Transform:
   m_GameObject: {fileID: 242628192}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.3, z: 0}
+  m_LocalPosition: {x: 0, y: -1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5263,7 +5263,7 @@ MonoBehaviour:
   atackPointBack: {fileID: 2095733741}
   atackPointRight: {fileID: 1697908399}
   atackPointLeft: {fileID: 767664790}
-  radius: 1.81
+  radius: 1
   inimigos:
     serializedVersion: 2
     m_Bits: 64
@@ -10930,7 +10930,7 @@ Transform:
   m_GameObject: {fileID: 767664790}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3, y: 0, z: 0}
+  m_LocalPosition: {x: -1.8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21543,7 +21543,7 @@ Transform:
   m_GameObject: {fileID: 1697908399}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3, y: 0, z: 0}
+  m_LocalPosition: {x: 1.8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23791,7 +23791,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0.15}
-  m_Size: {x: 1.06, y: 0.95}
+  m_Size: {x: 1.36, y: 0.95}
   m_Direction: 0
 --- !u!114 &1813379276
 MonoBehaviour:
@@ -26568,7 +26568,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &2067365966
 Animator:
   serializedVersion: 7
@@ -26755,7 +26755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EyeDarkInimigos
   velocidadeInimigo: 2
-  vidaInimigo: 5
+  vidaInimigo: 2
   estaVivo: 1
   estaAtacando: 0
   player: {fileID: 464680357}
@@ -26788,7 +26788,7 @@ Transform:
   m_GameObject: {fileID: 2095733741}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.3, z: 0}
+  m_LocalPosition: {x: 0, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28507,7 +28507,7 @@ PrefabInstance:
       objectReference: {fileID: 464680357}
     - target: {fileID: 3445182901713594426, guid: 26c9ae7803cf4af45ba7cbb4f497b3b5, type: 3}
       propertyPath: velocidade
-      value: 3.5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4557348975070921309, guid: 26c9ae7803cf4af45ba7cbb4f497b3b5, type: 3}
       propertyPath: m_Name
