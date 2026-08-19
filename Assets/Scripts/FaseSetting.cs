@@ -5,9 +5,13 @@ public class FaseSetting : MonoBehaviour
 {
     //variaveis 
     public static FaseSetting instance;
+
     public int inimigosVivos;
+
     public bool podePintar = false;
     public int blocosPintados = 0;
+
+    public bool faseConcluida = false;
 
     private void Awake()
     {
@@ -42,6 +46,7 @@ public class FaseSetting : MonoBehaviour
         if (blocosPintados >= 140)
         {
             Debug.Log("Fase Concluida!");
+            faseConcluida = true;
         }
     }
 }
