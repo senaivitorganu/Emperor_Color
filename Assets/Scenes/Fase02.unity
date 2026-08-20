@@ -1946,7 +1946,7 @@ MonoBehaviour:
   atackPointBack: {fileID: 1500851129}
   atackPointRight: {fileID: 1935222766}
   atackPointLeft: {fileID: 1072767725}
-  radius: 0.6
+  radius: 1
   inimigos:
     serializedVersion: 2
     m_Bits: 64
