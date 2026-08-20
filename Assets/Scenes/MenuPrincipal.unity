@@ -282,7 +282,7 @@ GameObject:
   - component: {fileID: 122396094}
   - component: {fileID: 122396097}
   m_Layer: 5
-  m_Name: CreditosButton
+  m_Name: TutorialButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -351,7 +351,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 122396095}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 832403644}
+        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_MethodName: AbrirTutorial
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &122396095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -473,9 +485,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12e1e2a7813b6654da81a41868267993, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuController
-  NomeCenaJogo: Jogo
+  NomeCenaJogo: Fase01
   CenaGameOver: GameOver
+  MenuPrincipal: MenuPrincipal
   painelMenuInical: {fileID: 369948477}
+  CenaTutorial: Tutorial
 --- !u!4 &832403645
 Transform:
   m_ObjectHideFlags: 0
@@ -1245,7 +1259,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Creditos
+  m_text: Tutorial
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 449ef1ff0e039cf4c9dbc761925de9f5, type: 2}
   m_sharedMaterial: {fileID: -5825573417466692376, guid: 449ef1ff0e039cf4c9dbc761925de9f5, type: 2}

@@ -8,6 +8,7 @@ public class MenuController : MonoBehaviour
     [SerializeField] private string CenaGameOver = "GameOver";
     [SerializeField] private string MenuPrincipal = "MenuPrincipal";
     [SerializeField] private GameObject painelMenuInical;
+    [SerializeField] private string CenaTutorial = "Tutorial";
 
     // void para entar no jogo
     public void IniciarJogo() 
@@ -15,10 +16,10 @@ public class MenuController : MonoBehaviour
         SceneManager.LoadScene(NomeCenaJogo);
     }
 
-    // void para falar sobre o criadores
-    void AbrirCreditos() 
-    { 
-    
+    // void para ver o tutorial
+    public void AbrirTutorial() 
+    {
+        SceneManager.LoadScene(CenaTutorial);
     }
 
     // void para sair do jogo

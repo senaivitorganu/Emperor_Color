@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PortalNIvel : MonoBehaviour
 {
@@ -30,7 +31,31 @@ public class PortalNIvel : MonoBehaviour
 
         if (other.CompareTag("Player")) 
         {
-            Debug.Log("Proxima Fase");
+            string nomeFase = SceneManager.GetActiveScene().name; // pega o nome da fase atual
+
+            if (nomeFase == "Tutorial") 
+            {
+                SceneManager.LoadScene("MenuPrincipal");
+            } 
+            else if (nomeFase == "Fase01")
+            {
+                SceneManager.LoadScene("Fase02");
+            }
+            else if (nomeFase == "Fase02")
+            {
+                SceneManager.LoadScene("Fase03");
+            }
+            //else if (nomeFase == "Fase3")
+            //{
+            //    SceneManager.LoadScene("Fase4");
+            //}
+            //else if (nomeFase == "Fase4")
+            //{
+            //    SceneManager.LoadScene("Fase5");
+            //}
+            //else if (nomeFase == "Fase5")
+            //{
+            //    SceneManager.LoadScene("MenuPrincipal");
         }
     }
 }

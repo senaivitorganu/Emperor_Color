@@ -28,6 +28,7 @@ public class EyeDarkInimigos : MonoBehaviour
         if (estaAtacando == true && estaVivo == true) 
         {
             inimigoAnim.PlayAnimation("EyeOfDarkProjectilesAttack");
+            yield return new WaitForSeconds(0.4f);// vai dar um tempo de 0.4 segundos
             Instantiate(PrefabBall, SpawnPoint.position, Quaternion.identity);
             yield return new WaitForSeconds(1f);// vai dar um tempo de 1 segundos
         }
