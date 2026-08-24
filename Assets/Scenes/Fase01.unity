@@ -10268,7 +10268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Inimigos
   velocidadeInimigo: 1
   vidaInimigo: 5
-  alvo: {fileID: 0}
+  alvo: {fileID: 907731402}
   inimigoAnim: {fileID: 877927662}
 --- !u!95 &877927664
 Animator:
@@ -22815,7 +22815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Inimigos
   velocidadeInimigo: 1
   vidaInimigo: 5
-  alvo: {fileID: 0}
+  alvo: {fileID: 907731402}
   inimigoAnim: {fileID: 1748360814}
 --- !u!95 &1748360816
 Animator:

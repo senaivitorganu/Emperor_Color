@@ -55,7 +55,7 @@ public class PlayerSetings : MonoBehaviour
 
                     if (inimigoIrregular != null)
                     {
-                        inimigoIrregular.vidaInimigo -= dano;
+                        inimigoIrregular.ReceberDano(dano);
                     }
                     else if (inimigoEye != null)
                     {
@@ -75,7 +75,7 @@ public class PlayerSetings : MonoBehaviour
 
                     if (inimigoIrregular != null)
                     {
-                        inimigoIrregular.vidaInimigo -= dano;
+                        inimigoIrregular.ReceberDano(dano);
                     }
                     else if (inimigoEye != null)
                     {
@@ -95,7 +95,7 @@ public class PlayerSetings : MonoBehaviour
 
                     if (inimigoIrregular != null)
                     {
-                        inimigoIrregular.vidaInimigo -= dano;
+                        inimigoIrregular.ReceberDano(dano);
                     }
                     else if (inimigoEye != null)
                     {
@@ -115,7 +115,7 @@ public class PlayerSetings : MonoBehaviour
 
                     if (inimigoIrregular != null)
                     {
-                        inimigoIrregular.vidaInimigo -= dano;
+                        inimigoIrregular.ReceberDano(dano);
                     }
                     else if (inimigoEye != null)
                     {

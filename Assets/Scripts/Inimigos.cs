@@ -20,6 +20,15 @@ public class Inimigos : MonoBehaviour
     public InimigoAnimationController inimigoAnim;
 
 
+    IEnumerator TomarDano() 
+    { 
+        velocidadeInimigo = 0; // vai zerar a velocidade do inimigo
+        inimigoAnim.PlayAnimation("EnemyIrregularDamagingTake"); // vai exibir a animação de dano do inimigo
+        yield return new WaitForSeconds(0.5f);// vai dar um tempo de 0.5 segundos para a animação
+
+        velocidadeInimigo = 2; // vai voltar a velocidade do inimigo para 2
+    }
+
     IEnumerator Morrer() 
     {
         if(estaVivo == false) 
@@ -28,6 +37,19 @@ public class Inimigos : MonoBehaviour
             yield return new WaitForSeconds(0.5f);// vai dar um tempo de 0.5 segundos para a animação de morte do inimigo ser exibida
             FaseSetting.instance.InimigoMorreu(); // vai chamar a função de inimigo morreu
             Destroy(gameObject); // caso a vida do inimigo seja menor ou igual a 0 ele vai ser destruido
+        }
+    }
+
+    public void ReceberDano(float dano) // função para receber dano
+    {
+        if (vidaInimigo > 0)
+        {
+            vidaInimigo -= dano; // vai subtrair a vida do inimigo com o dano recebido
+            StartCoroutine(TomarDano()); // vai chamar a função de tomar dano
+        }
+        else
+        { 
+            StartCoroutine(Morrer()); // vai chamar a função de morrer
         }
     }
 
