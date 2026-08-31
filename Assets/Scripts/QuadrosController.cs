@@ -36,11 +36,21 @@ public class QuadrosController : MonoBehaviour
         }
     }
 
+    public void UnloadBlocos()
+    {
+        sp.enabled = false;
+    }
+
     public void OnTriggerEnter2D(Collider2D other) // trigger para detectar quando o jogador entra na área do quadro
     {
         if (other.CompareTag("Player") && FaseSetting.instance.podePintar == true)
         {
             ShowQuadro();
+        }
+
+        if (other.CompareTag("HandBoss")) 
+        {
+            UnloadBlocos(); // vai desativar o sprite renderer quando a mão do boss tocar no quadro
         }
     }
 }

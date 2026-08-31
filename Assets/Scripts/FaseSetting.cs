@@ -23,6 +23,11 @@ public class FaseSetting : MonoBehaviour
         inimigosVivos = GameObject.FindGameObjectsWithTag("Inimigos").Length; // conta quantos inimigos estao vivos
 
         Debug.Log("Inimigos Vivos:"+ inimigosVivos);
+
+        if(inimigosVivos <= 0)
+        {
+            podePintar = true; // caso inicie com inimigos zerados pode pintar
+        }   
     }
 
     public void InimigoMorreu() 
