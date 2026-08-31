@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: e65852872da8b34468adb403a2c6497d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -214429575452998855
+    second: IdleUncolorHand_0
+  - first:
+      213: 4920145159688789977
+    second: IdleUncolorHand_1
+  - first:
+      213: -7606569567888207996
+    second: IdleUncolorHand_2
+  - first:
+      213: -6737973965928838969
+    second: IdleUncolorHand_3
+  - first:
+      213: -4584700421602419823
+    second: IdleUncolorHand_4
+  - first:
+      213: 1340854654567907371
+    second: IdleUncolorHand_5
+  - first:
+      213: 1560457169513768193
+    second: IdleUncolorHand_6
+  - first:
+      213: 4516223966958959276
+    second: IdleUncolorHand_7
+  - first:
+      213: 3237471504056257575
+    second: IdleUncolorHand_8
+  - first:
+      213: 4331953699275948420
+    second: IdleUncolorHand_9
+  - first:
+      213: -4057552898584164694
+    second: IdleUncolorHand_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IdleUncolorHand_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 134
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93349cdef61360df0800000000000000
+      internalID: -214429575452998855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_1
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 119
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df9b9664fdd74440800000000000000
+      internalID: 4920145159688789977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 104
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f0ab28749007690800000000000000
+      internalID: -7606569567888207996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_3
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 89
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c84bf69068ed72a0800000000000000
+      internalID: -6737973965928838969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_4
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 74
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bddc0e14fdf50c0800000000000000
+      internalID: -4584700421602419823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_5
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 74
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2003f4443cab9210800000000000000
+      internalID: 1340854654567907371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_6
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 89
+        width: 377
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105641c278bd7a510800000000000000
+      internalID: 1560457169513768193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_7
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 89
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caab1bc15c9dcae30800000000000000
+      internalID: 4516223966958959276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_8
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 89
+        width: 377
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72c09b91e2fcdec20800000000000000
+      internalID: 3237471504056257575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_9
+      rect:
+        serializedVersion: 2
+        x: 4394
+        y: 104
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48148c410f03e1c30800000000000000
+      internalID: 4331953699275948420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHand_10
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 119
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6c886f22da0b7c0800000000000000
+      internalID: -4057552898584164694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IdleUncolorHand_0: -214429575452998855
+      IdleUncolorHand_1: 4920145159688789977
+      IdleUncolorHand_10: -4057552898584164694
+      IdleUncolorHand_2: -7606569567888207996
+      IdleUncolorHand_3: -6737973965928838969
+      IdleUncolorHand_4: -4584700421602419823
+      IdleUncolorHand_5: 1340854654567907371
+      IdleUncolorHand_6: 1560457169513768193
+      IdleUncolorHand_7: 4516223966958959276
+      IdleUncolorHand_8: 3237471504056257575
+      IdleUncolorHand_9: 4331953699275948420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

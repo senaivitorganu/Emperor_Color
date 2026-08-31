@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 3a7043e7d497ead4490fecf9b70593fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3814452589526104751
+    second: OlhosDeFundoParadosDeladinho_0
+  - first:
+      213: 2341699211007622167
+    second: OlhosDeFundoParadosDeladinho_1
+  - first:
+      213: 3389185396615661574
+    second: OlhosDeFundoParadosDeladinho_2
+  - first:
+      213: 8257105538095663874
+    second: OlhosDeFundoParadosDeladinho_3
+  - first:
+      213: 8374002403127999112
+    second: OlhosDeFundoParadosDeladinho_4
+  - first:
+      213: -7529209520713387686
+    second: OlhosDeFundoParadosDeladinho_5
+  - first:
+      213: -505671332202130806
+    second: OlhosDeFundoParadosDeladinho_6
+  - first:
+      213: 324159649793116012
+    second: OlhosDeFundoParadosDeladinho_7
+  - first:
+      213: 8460702813225264454
+    second: OlhosDeFundoParadosDeladinho_8
+  - first:
+      213: -2696612604000352051
+    second: OlhosDeFundoParadosDeladinho_9
+  - first:
+      213: 1860050718212813277
+    second: OlhosDeFundoParadosDeladinho_10
+  - first:
+      213: 790314482837152443
+    second: OlhosDeFundoParadosDeladinho_11
+  - first:
+      213: 5657150812053937985
+    second: OlhosDeFundoParadosDeladinho_12
+  - first:
+      213: -9158473762981754151
+    second: OlhosDeFundoParadosDeladinho_13
+  - first:
+      213: 2725228809063056539
+    second: OlhosDeFundoParadosDeladinho_14
+  - first:
+      213: -2452973346858543213
+    second: OlhosDeFundoParadosDeladinho_15
+  - first:
+      213: 8286971921428357538
+    second: OlhosDeFundoParadosDeladinho_16
+  - first:
+      213: -6514139099666125299
+    second: OlhosDeFundoParadosDeladinho_17
+  - first:
+      213: -8425296433138606616
+    second: OlhosDeFundoParadosDeladinho_18
+  - first:
+      213: -6695529156822411865
+    second: OlhosDeFundoParadosDeladinho_19
+  - first:
+      213: 8299643408363493758
+    second: OlhosDeFundoParadosDeladinho_20
+  - first:
+      213: 1680137706871331754
+    second: OlhosDeFundoParadosDeladinho_21
+  - first:
+      213: -2860819196034070335
+    second: OlhosDeFundoParadosDeladinho_22
+  - first:
+      213: -3196301708473176052
+    second: OlhosDeFundoParadosDeladinho_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1554ab46497501bc0800000000000000
+      internalID: -3814452589526104751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_1
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cfbea86036f7020800000000000000
+      internalID: 2341699211007622167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_2
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608c73b592ec80f20800000000000000
+      internalID: 3389185396615661574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_3
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b4a172db1279270800000000000000
+      internalID: 8257105538095663874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_4
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a36ba71de663470800000000000000
+      internalID: 8374002403127999112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_5
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a51b36615dfd28790800000000000000
+      internalID: -7529209520713387686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_6
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a825efe3a9e7bf8f0800000000000000
+      internalID: -505671332202130806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_7
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c670f68eb75af7400800000000000000
+      internalID: 324159649793116012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_8
+      rect:
+        serializedVersion: 2
+        x: 2569
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645a074c1647a6570800000000000000
+      internalID: 8460702813225264454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_9
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8c7b9bf15b39ad0800000000000000
+      internalID: -2696612604000352051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_10
+      rect:
+        serializedVersion: 2
+        x: 3209
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1f843f54a30d910800000000000000
+      internalID: 1860050718212813277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_11
+      rect:
+        serializedVersion: 2
+        x: 3529
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2ea5ab5d2c7fa00800000000000000
+      internalID: 790314482837152443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_12
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f9941d0bc328e40800000000000000
+      internalID: 5657150812053937985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_13
+      rect:
+        serializedVersion: 2
+        x: 4169
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daccb0e2a096e080800000000000000
+      internalID: -9158473762981754151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_14
+      rect:
+        serializedVersion: 2
+        x: 4489
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b944dd7b925f1d520800000000000000
+      internalID: 2725228809063056539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_15
+      rect:
+        serializedVersion: 2
+        x: 4809
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397def8ccb945fdd0800000000000000
+      internalID: -2452973346858543213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_16
+      rect:
+        serializedVersion: 2
+        x: 5129
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1af586e0d310370800000000000000
+      internalID: 8286971921428357538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_17
+      rect:
+        serializedVersion: 2
+        x: 5449
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eeae290012995a0800000000000000
+      internalID: -6514139099666125299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_18
+      rect:
+        serializedVersion: 2
+        x: 5769
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed586f7885531b80800000000000000
+      internalID: -8425296433138606616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_19
+      rect:
+        serializedVersion: 2
+        x: 6089
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a55450d4b3b413a0800000000000000
+      internalID: -6695529156822411865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_20
+      rect:
+        serializedVersion: 2
+        x: 6409
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e791bedd4b14e2370800000000000000
+      internalID: 8299643408363493758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_21
+      rect:
+        serializedVersion: 2
+        x: 6729
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab1ec7b75c015710800000000000000
+      internalID: 1680137706871331754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_22
+      rect:
+        serializedVersion: 2
+        x: 7049
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c845c539145c48d0800000000000000
+      internalID: -2860819196034070335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OlhosDeFundoParadosDeladinho_23
+      rect:
+        serializedVersion: 2
+        x: 7369
+        y: 9
+        width: 302
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c007b77e78474a3d0800000000000000
+      internalID: -3196301708473176052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      OlhosDeFundoParadosDeladinho_0: -3814452589526104751
+      OlhosDeFundoParadosDeladinho_1: 2341699211007622167
+      OlhosDeFundoParadosDeladinho_10: 1860050718212813277
+      OlhosDeFundoParadosDeladinho_11: 790314482837152443
+      OlhosDeFundoParadosDeladinho_12: 5657150812053937985
+      OlhosDeFundoParadosDeladinho_13: -9158473762981754151
+      OlhosDeFundoParadosDeladinho_14: 2725228809063056539
+      OlhosDeFundoParadosDeladinho_15: -2452973346858543213
+      OlhosDeFundoParadosDeladinho_16: 8286971921428357538
+      OlhosDeFundoParadosDeladinho_17: -6514139099666125299
+      OlhosDeFundoParadosDeladinho_18: -8425296433138606616
+      OlhosDeFundoParadosDeladinho_19: -6695529156822411865
+      OlhosDeFundoParadosDeladinho_2: 3389185396615661574
+      OlhosDeFundoParadosDeladinho_20: 8299643408363493758
+      OlhosDeFundoParadosDeladinho_21: 1680137706871331754
+      OlhosDeFundoParadosDeladinho_22: -2860819196034070335
+      OlhosDeFundoParadosDeladinho_23: -3196301708473176052
+      OlhosDeFundoParadosDeladinho_3: 8257105538095663874
+      OlhosDeFundoParadosDeladinho_4: 8374002403127999112
+      OlhosDeFundoParadosDeladinho_5: -7529209520713387686
+      OlhosDeFundoParadosDeladinho_6: -505671332202130806
+      OlhosDeFundoParadosDeladinho_7: 324159649793116012
+      OlhosDeFundoParadosDeladinho_8: 8460702813225264454
+      OlhosDeFundoParadosDeladinho_9: -2696612604000352051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
