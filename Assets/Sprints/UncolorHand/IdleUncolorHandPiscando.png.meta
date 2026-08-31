@@ -1,0 +1,507 @@
+fileFormatVersion: 2
+guid: 10292e199688efb468e40877a130e038
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7077435553398764787
+    second: IdleUncolorHandPiscando_0
+  - first:
+      213: -8233561219644307682
+    second: IdleUncolorHandPiscando_1
+  - first:
+      213: -1054699967896373040
+    second: IdleUncolorHandPiscando_2
+  - first:
+      213: 1058750263888794613
+    second: IdleUncolorHandPiscando_3
+  - first:
+      213: -2221198232781343076
+    second: IdleUncolorHandPiscando_4
+  - first:
+      213: -151616749275416403
+    second: IdleUncolorHandPiscando_5
+  - first:
+      213: 5229082850842513572
+    second: IdleUncolorHandPiscando_6
+  - first:
+      213: 7532642344301193022
+    second: IdleUncolorHandPiscando_7
+  - first:
+      213: 6869505991887513150
+    second: IdleUncolorHandPiscando_8
+  - first:
+      213: -168115692834389577
+    second: IdleUncolorHandPiscando_9
+  - first:
+      213: 2323725940856623843
+    second: IdleUncolorHandPiscando_10
+  - first:
+      213: 7862474602685320337
+    second: IdleUncolorHandPiscando_11
+  - first:
+      213: 445160270744135264
+    second: IdleUncolorHandPiscando_12
+  - first:
+      213: 2392722456470554421
+    second: IdleUncolorHandPiscando_13
+  - first:
+      213: 3991687185364627314
+    second: IdleUncolorHandPiscando_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 134
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4bd01532a183260800000000000000
+      internalID: 7077435553398764787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_1
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 119
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e174baaa1b38cbd80800000000000000
+      internalID: -8233561219644307682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_2
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 104
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8bbec97f3fc51f0800000000000000
+      internalID: -1054699967896373040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_3
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 89
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f351f861cf61be00800000000000000
+      internalID: 1058750263888794613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_4
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 74
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96b757c9f7bc21e0800000000000000
+      internalID: -2221198232781343076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_5
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 74
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8707dae5955edf0800000000000000
+      internalID: -151616749275416403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_6
+      rect:
+        serializedVersion: 2
+        x: 2954
+        y: 89
+        width: 377
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a01e81e52f619840800000000000000
+      internalID: 5229082850842513572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_7
+      rect:
+        serializedVersion: 2
+        x: 3434
+        y: 89
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3763207d42598860800000000000000
+      internalID: 7532642344301193022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_8
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 89
+        width: 377
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e366fdcad43655f50800000000000000
+      internalID: 6869505991887513150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_9
+      rect:
+        serializedVersion: 2
+        x: 4394
+        y: 104
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b100770babbaadf0800000000000000
+      internalID: -168115692834389577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_10
+      rect:
+        serializedVersion: 2
+        x: 4874
+        y: 119
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e29e1c7e688f3020800000000000000
+      internalID: 2323725940856623843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_11
+      rect:
+        serializedVersion: 2
+        x: 5354
+        y: 134
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cc6947efe1d1d60800000000000000
+      internalID: 7862474602685320337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_12
+      rect:
+        serializedVersion: 2
+        x: 5834
+        y: 134
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06622dd58e68d2600800000000000000
+      internalID: 445160270744135264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_13
+      rect:
+        serializedVersion: 2
+        x: 6314
+        y: 134
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5370700a568a43120800000000000000
+      internalID: 2392722456470554421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUncolorHandPiscando_14
+      rect:
+        serializedVersion: 2
+        x: 6794
+        y: 134
+        width: 377
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f2322a852556730800000000000000
+      internalID: 3991687185364627314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      IdleUncolorHandPiscando_0: 7077435553398764787
+      IdleUncolorHandPiscando_1: -8233561219644307682
+      IdleUncolorHandPiscando_10: 2323725940856623843
+      IdleUncolorHandPiscando_11: 7862474602685320337
+      IdleUncolorHandPiscando_12: 445160270744135264
+      IdleUncolorHandPiscando_13: 2392722456470554421
+      IdleUncolorHandPiscando_14: 3991687185364627314
+      IdleUncolorHandPiscando_2: -1054699967896373040
+      IdleUncolorHandPiscando_3: 1058750263888794613
+      IdleUncolorHandPiscando_4: -2221198232781343076
+      IdleUncolorHandPiscando_5: -151616749275416403
+      IdleUncolorHandPiscando_6: 5229082850842513572
+      IdleUncolorHandPiscando_7: 7532642344301193022
+      IdleUncolorHandPiscando_8: 6869505991887513150
+      IdleUncolorHandPiscando_9: -168115692834389577
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

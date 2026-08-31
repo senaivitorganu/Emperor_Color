@@ -22,7 +22,7 @@ public class HandBoss : MonoBehaviour
 
     IEnumerator AparecerMao()
     {
-        animator.Play(""); // vai exibir a animação da mão piscando
+        animator.Play("IdleUncolorHandPiscando"); // vai exibir a animação da mão piscando
         
         float tempo = 0f;
 
@@ -35,6 +35,7 @@ public class HandBoss : MonoBehaviour
 
         direcao = Vector2.left; // ira pegar a direção que tera que ir a mão
         atacando = true; // vai permitir que a mão ataque
+        animator.Play("IdleUncolorHand");
     }
 
     void Start()

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Inimigos
   - Blocos
+  - HandBoss
   layers:
   - Default
   - TransparentFX

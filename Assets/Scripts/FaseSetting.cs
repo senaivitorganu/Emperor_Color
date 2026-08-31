@@ -54,4 +54,18 @@ public class FaseSetting : MonoBehaviour
             faseConcluida = true;
         }
     }
+
+    public void TirarBlocos() 
+    {
+        if(blocosPintados > 0) 
+        { 
+            blocosPintados--;
+        } 
+        else if(blocosPintados < 0) 
+        {
+            blocosPintados = 0;
+            Debug.Log("ZERADO");
+        }
+        Debug.Log("Blocos Pintados:" + blocosPintados);
+    }
 }

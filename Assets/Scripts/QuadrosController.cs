@@ -38,7 +38,11 @@ public class QuadrosController : MonoBehaviour
 
     public void UnloadBlocos()
     {
-        sp.enabled = false;
+        if (quadroPintado == true) { 
+            sp.enabled = false;
+            quadroPintado = false;
+            FaseSetting.instance.TirarBlocos(); // chama a função TirarBlocos() da classe FaseSetting para diminuir a contagem de blocos pintados
+        }
     }
 
     public void OnTriggerEnter2D(Collider2D other) // trigger para detectar quando o jogador entra na área do quadro
