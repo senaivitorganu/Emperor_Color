@@ -49,10 +49,10 @@ public class PortalNIvel : MonoBehaviour
             {
                 SceneManager.LoadScene("Fase04");
             }
-            //else if (nomeFase == "Fase4")
-            //{
-            //    SceneManager.LoadScene("Fase5");
-            //}
+            else if (nomeFase == "Fase04")
+            {
+               SceneManager.LoadScene("Fase05");
+            }
             //else if (nomeFase == "Fase5")
             //{
             //    SceneManager.LoadScene("MenuPrincipal");
