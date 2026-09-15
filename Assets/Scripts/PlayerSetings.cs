@@ -52,6 +52,7 @@ public class PlayerSetings : MonoBehaviour
                     Debug.Log("Inimigo atingido");
                     Inimigos inimigoIrregular = enemyGameobject.GetComponent<Inimigos>();
                     EyeDarkInimigos inimigoEye = enemyGameobject.GetComponent<EyeDarkInimigos>();
+                    BossController boss = enemyGameobject.GetComponent<BossController>();
 
                     if (inimigoIrregular != null)
                     {
@@ -60,6 +61,10 @@ public class PlayerSetings : MonoBehaviour
                     else if (inimigoEye != null)
                     {
                         inimigoEye.vidaInimigo -= dano;
+                    }
+                    else if (boss != null)
+                    {
+                        boss.vida -= dano;
                     }
                 }
                 break;
@@ -72,6 +77,7 @@ public class PlayerSetings : MonoBehaviour
                     Debug.Log("Inimigo atingido");
                     Inimigos inimigoIrregular = enemyGameobject.GetComponent<Inimigos>();
                     EyeDarkInimigos inimigoEye = enemyGameobject.GetComponent<EyeDarkInimigos>();
+                    BossController boss = enemyGameobject.GetComponent<BossController>();
 
                     if (inimigoIrregular != null)
                     {
@@ -80,6 +86,10 @@ public class PlayerSetings : MonoBehaviour
                     else if (inimigoEye != null)
                     {
                         inimigoEye.vidaInimigo -= dano;
+                    }
+                    else if (boss != null)
+                    {
+                        boss.vida -= dano;
                     }
                 }
                 break;
@@ -92,6 +102,7 @@ public class PlayerSetings : MonoBehaviour
                     Debug.Log("Inimigo atingido");
                     Inimigos inimigoIrregular = enemyGameobject.GetComponent<Inimigos>();
                     EyeDarkInimigos inimigoEye = enemyGameobject.GetComponent<EyeDarkInimigos>();
+                    BossController boss = enemyGameobject.GetComponent<BossController>();
 
                     if (inimigoIrregular != null)
                     {
@@ -100,6 +111,10 @@ public class PlayerSetings : MonoBehaviour
                     else if (inimigoEye != null)
                     {
                         inimigoEye.vidaInimigo -= dano;
+                    }
+                    else if (boss != null)
+                    {
+                        boss.vida -= dano;
                     }
                 }
                 break;
@@ -112,6 +127,7 @@ public class PlayerSetings : MonoBehaviour
                     Debug.Log("Inimigo atingido");
                     Inimigos inimigoIrregular = enemyGameobject.GetComponent<Inimigos>();
                     EyeDarkInimigos inimigoEye = enemyGameobject.GetComponent<EyeDarkInimigos>();
+                    BossController boss = enemyGameobject.GetComponent<BossController>();
 
                     if (inimigoIrregular != null)
                     {
@@ -120,6 +136,10 @@ public class PlayerSetings : MonoBehaviour
                     else if (inimigoEye != null)
                     {
                         inimigoEye.vidaInimigo -= dano;
+                    }
+                    else if (boss != null)
+                    {
+                        boss.vida -= dano;
                     }
                 }
                 break;

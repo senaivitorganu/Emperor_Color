@@ -6,7 +6,7 @@ public class BossController : MonoBehaviour
 {
     [Header("Boss Settings")]
     public float velocidade = 5f;
-    public float vida = 100f;
+    public float vida = 50f;
     public bool estaVivo = true;
 
     [Header("Ataque Settings")]
@@ -15,6 +15,17 @@ public class BossController : MonoBehaviour
     [Header("Catscene Settings")]
     public Transform pontoCentro;
     public bool catsceneAtiva = false;
+
+    [Header("Raio Atack")]
+    public Transform pontoEsquerdo;
+    public Transform pontoDireito;
+    public Transform pontoCima;
+    public Transform pontoBaixo;
+
+    public GameObject raioPrefab;
+
+    private float contadorAtaque = 0f;
+    public float tempoEntreAtaques = 10f;
 
     [Header("Animations Settings")]
     public Animator animator;
@@ -33,6 +44,25 @@ public class BossController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         StartCoroutine(Cutscene());
+    }
+
+    void Update()
+    {
+        if (estaVivo == true && catsceneAtiva == false)
+        {
+            contadorAtaque += Time.deltaTime;
+
+            if (contadorAtaque >= tempoEntreAtaques)
+            {
+                EscolherAtaque();
+                contadorAtaque = 0f;
+            }
+        }
+
+        if (vida <= 0) 
+        {
+            Debug.Log("Boss Derrotado!");
+        }
     }
 
     IEnumerator Cutscene()
@@ -63,5 +93,23 @@ public class BossController : MonoBehaviour
 
         animator.SetBool("FimTransformação", true);
         velocidade = 5f; // Restaura a velocidade do boss após a catscene
+    }
+
+    void EscolherAtaque()
+    {
+        //OBS: estamos usando 2 bibliotecas que possuem a função Random.Range, a do UnityEngine e a do System. Para evitar conflitos, estamos especificando que queremos usar a do UnityEngine.
+        int ladoAtaque = UnityEngine.Random.Range(0, 2);
+        
+
+        if (ladoAtaque == 0)
+        {
+            Instantiate(raioPrefab, pontoEsquerdo.position, pontoEsquerdo.rotation);
+            Instantiate(raioPrefab, pontoDireito.position, pontoDireito.rotation);
+        }
+        else
+        {
+            Instantiate(raioPrefab, pontoCima.position, pontoCima.rotation);
+            Instantiate(raioPrefab, pontoBaixo.position, pontoBaixo.rotation);
+        }
     }
 }

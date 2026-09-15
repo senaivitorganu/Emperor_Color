@@ -8,6 +8,7 @@ TagManager:
   - Blocos
   - HandBoss
   - Boss
+  - RaioAtack
   layers:
   - Default
   - TransparentFX

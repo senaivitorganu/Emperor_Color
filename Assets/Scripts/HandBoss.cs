@@ -43,7 +43,7 @@ public class HandBoss : MonoBehaviour
         StartCoroutine(AparecerMao()); // vai chamar a função de aparecer a mão
     }
 
-    private void Update()
+    void Update()
     {
 
         if (atacando == true) 
@@ -51,7 +51,7 @@ public class HandBoss : MonoBehaviour
             transform.Translate(direcao * velocidade * Time.deltaTime); // vai fazer a mão se mover em direção ao player
         }
 
-        if(transform.position.x == -10) // quando chegar no final da tela a mão vai ser destruida
+        if(transform.position.x <= -12) // quando chegar no final da tela a mão vai ser destruida
         {
             Destroy(gameObject);
         }
