@@ -6,7 +6,7 @@ public class BossController : MonoBehaviour
 {
     [Header("Boss Settings")]
     public float velocidade = 5f;
-    public float vida = 50f;
+    public float vida = 100f;
     public bool estaVivo = true;
 
     [Header("Ataque Settings")]
@@ -61,7 +61,7 @@ public class BossController : MonoBehaviour
 
         if (vida <= 0) 
         {
-            Debug.Log("Boss Derrotado!");
+            StartCoroutine(Morrer());
         }
     }
 
@@ -111,5 +111,12 @@ public class BossController : MonoBehaviour
             Instantiate(raioPrefab, pontoCima.position, pontoCima.rotation);
             Instantiate(raioPrefab, pontoBaixo.position, pontoBaixo.rotation);
         }
+    }
+
+    IEnumerator Morrer() 
+    {
+        estaVivo = false; // define que o boss não está mais vivo
+        yield return new WaitForSeconds(1f); // espera 1 segundo antes de destruir o boss
+        Destroy(gameObject); // destroi o objeto do boss
     }
 }

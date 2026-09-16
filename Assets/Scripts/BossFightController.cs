@@ -35,7 +35,7 @@ public class BossFightController : MonoBehaviour
 
     void Update()
     {
-        if (FaseSetting.instance.blocosPintados >= 70) 
+        if (FaseSetting.instance.blocosPintados >= 70 && boss != null) 
         {
             NascerBoss = true;
             boss.SetActive(true);
@@ -83,6 +83,7 @@ public class BossFightController : MonoBehaviour
                 GameObject novaMao = Instantiate(PrefabHand, SpawnPoint.position, Quaternion.identity);
                 HandBoss mao = novaMao.GetComponent<HandBoss>();
                 mao.player = player;
+                mao.bossController = bossController;
             }
         }
     }

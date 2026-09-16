@@ -2940,7 +2940,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 241680799}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RaioAtackCima
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11257,7 +11257,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 906885700}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RaioAtackEsquerdo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18596,7 +18596,7 @@ GameObject:
   - component: {fileID: 1407980391}
   - component: {fileID: 1407980395}
   - component: {fileID: 1407980396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Boss
   m_TagString: Boss
   m_Icon: {fileID: 0}
@@ -22515,7 +22515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1716629761}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RaioAtackDireito
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22546,7 +22546,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1723080899}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RaioAtackBaixo
   m_TagString: Untagged
   m_Icon: {fileID: 0}

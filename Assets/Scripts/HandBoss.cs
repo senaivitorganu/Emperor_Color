@@ -20,22 +20,25 @@ public class HandBoss : MonoBehaviour
     [Header("Blocos")]
     public QuadrosController quadros;
 
+    [Header("Conexões")]
+    public BossController bossController;
+
     IEnumerator AparecerMao()
     {
-        animator.Play("IdleUncolorHandPiscando"); // vai exibir a animação da mão piscando
-        
-        float tempo = 0f;
+            animator.Play("IdleUncolorHandPiscando"); // vai exibir a animação da mão piscando
 
-        while (tempo < 2f) // vai dar um tempo de 2 segundos e ira seguir o eixo y so player
-        {
-            transform.position = new Vector2(transform.position.x, player.position.y); // vai seguir o eixo y do player
-            tempo += Time.deltaTime;
-            yield return null;
-        }
+            float tempo = 0f;
 
-        direcao = Vector2.left; // ira pegar a direção que tera que ir a mão
-        atacando = true; // vai permitir que a mão ataque
-        animator.Play("IdleUncolorHand");
+            while (tempo < 2f) // vai dar um tempo de 2 segundos e ira seguir o eixo y so player
+            {
+                transform.position = new Vector2(transform.position.x, player.position.y); // vai seguir o eixo y do player
+                tempo += Time.deltaTime;
+                yield return null;
+            }
+
+            direcao = Vector2.left; // ira pegar a direção que tera que ir a mão
+            atacando = true; // vai permitir que a mão ataque
+            animator.Play("IdleUncolorHand");
     }
 
     void Start()
@@ -45,6 +48,10 @@ public class HandBoss : MonoBehaviour
 
     void Update()
     {
+        if (bossController.estaVivo == false) // quando o boss morrer a mão vai ser destruida
+        {
+            Destroy(gameObject);
+        }
 
         if (atacando == true) 
         { 
