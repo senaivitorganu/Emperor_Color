@@ -16550,7 +16550,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1.45}
+  m_Size: {x: 1, y: 1.2}
   m_EdgeRadius: 0
 --- !u!50 &1265722645
 Rigidbody2D:
@@ -18762,7 +18762,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossController
   velocidade: 5
-  vida: 100
+  vida: 50
   estaVivo: 1
   estaAtancando: 0
   pontoCentro: {fileID: 1678592709}
