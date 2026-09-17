@@ -1,14 +1,22 @@
 using System.Collections;
+using System.Text.RegularExpressions;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BossController : MonoBehaviour
 {
     [Header("Boss Settings")]
     public float velocidade = 5f;
-    public float vida = 100f;
+    public float vida = 50f;
     public bool estaVivo = true;
     public bool podeMover = true;
+
+    [Header("Boss Bar")]
+    public Transform bossBar;  //RectTransform é o componente usado para controlar posição, tamanho e escala de elementos da UI.
+    public Transform bossBarImage; // Image é o componente usado para exibir imagens na UI, como a barra de vida do boss.
+    public float vidaMax;
+    private float larguraMaximaBarra;
 
     [Header("Ataque Settings")]
     public bool estaAtancando = false;
@@ -52,6 +60,9 @@ public class BossController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         StartCoroutine(Cutscene());
+
+        vidaMax = vida;
+        larguraMaximaBarra = bossBar.localScale.y; // pega a largura atual da barra de vida
     }
 
     void Update()
@@ -67,12 +78,28 @@ public class BossController : MonoBehaviour
             }
         }
 
-        if (vida <= 0) 
+        if (vida <= 0)
         {
             EyesArena.SetActive(false);
             podeMover = false; // define que o boss não pode mais se mover
             StartCoroutine(Morrer());
         }
+    }
+
+    public void ReceberDano(float dano)
+    {
+        if (vida <= 0)
+        {
+            return; // se a vida já estiver zerada, não faz nada
+        }
+
+        vida -= dano;
+        StartCoroutine(animaHit());
+
+        float porcetagemVida = vida / vidaMax; // calcula a porcentagem de vida restante
+
+        bossBar.localScale = new Vector3(bossBar.localScale.x, larguraMaximaBarra * porcetagemVida, bossBar.localScale.z); // atualiza a largura da barra de vida com base na porcentagem de vida restante
+
     }
 
     IEnumerator Cutscene()
@@ -103,6 +130,9 @@ public class BossController : MonoBehaviour
 
         animator.SetBool("FimTransformação", true);
         velocidade = 5f; // Restaura a velocidade do boss após a catscene
+
+        bossBar.gameObject.SetActive(true); // ativa a barra de vida do boss após a catscene
+        bossBarImage.gameObject.SetActive(true); // ativa a imagem da barra de vida do boss após a catscene
 
         StartCoroutine(MoverBoss()); // inicia a movimentação do boss após a catscene
     }
@@ -181,9 +211,20 @@ public class BossController : MonoBehaviour
 
     IEnumerator Morrer() 
     {
+        bossBar.gameObject.SetActive(false); // desativa a barra de vida do boss
         estaVivo = false; // define que o boss não está mais vivo
         animator.SetBool("Morrer", true);
         yield return new WaitForSeconds(10f); // espera 1 segundo antes de destruir o boss
         Destroy(gameObject); // destroi o objeto do boss
+        bossBarImage.gameObject.SetActive(false); // desativa a imagem da barra de vida do boss
+    }
+
+    IEnumerator animaHit() 
+    {
+        animator.SetBool("Hit", true);
+
+        yield return new WaitForSeconds(0.5f); // espera 0.5 segundo antes de voltar para a animação de idle
+
+        animator.SetBool("Hit", false);
     }
 }

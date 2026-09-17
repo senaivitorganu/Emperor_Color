@@ -64,7 +64,8 @@ public class PlayerSetings : MonoBehaviour
                     }
                     else if (boss != null)
                     {
-                        boss.vida -= dano;
+                        boss.ReceberDano(dano);
+
                     }
                 }
                 break;
@@ -89,7 +90,7 @@ public class PlayerSetings : MonoBehaviour
                     }
                     else if (boss != null)
                     {
-                        boss.vida -= dano;
+                        boss.ReceberDano(dano);
                     }
                 }
                 break;
@@ -114,7 +115,7 @@ public class PlayerSetings : MonoBehaviour
                     }
                     else if (boss != null)
                     {
-                        boss.vida -= dano;
+                        boss.ReceberDano(dano);
                     }
                 }
                 break;
@@ -139,7 +140,7 @@ public class PlayerSetings : MonoBehaviour
                     }
                     else if (boss != null)
                     {
-                        boss.vida -= dano;
+                        boss.ReceberDano(dano);
                     }
                 }
                 break;
