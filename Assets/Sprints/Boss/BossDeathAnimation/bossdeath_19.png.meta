@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 0043406d85f95d14d9eee49a9787889a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3623203314678783583
+    second: bossdeath_19_0
+  - first:
+      213: -1228741220299160926
+    second: bossdeath_19_1
+  - first:
+      213: 8654714532905532181
+    second: bossdeath_19_2
+  - first:
+      213: 6321921301431005120
+    second: bossdeath_19_3
+  - first:
+      213: -6707992706484377741
+    second: bossdeath_19_4
+  - first:
+      213: 8935662122138606667
+    second: bossdeath_19_5
+  - first:
+      213: -2438134063992428721
+    second: bossdeath_19_6
+  - first:
+      213: 4751051607513815062
+    second: bossdeath_19_7
+  - first:
+      213: -8522962878833649479
+    second: bossdeath_19_8
+  - first:
+      213: 1521447698970849569
+    second: bossdeath_19_9
+  - first:
+      213: -7475009768913557712
+    second: bossdeath_19_10
+  - first:
+      213: -4377430712458840570
+    second: bossdeath_19_11
+  - first:
+      213: 5498957444023505939
+    second: bossdeath_19_12
+  - first:
+      213: -4209308750111712906
+    second: bossdeath_19_13
+  - first:
+      213: 698749115716880463
+    second: bossdeath_19_14
+  - first:
+      213: 8028289612199976841
+    second: bossdeath_19_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bossdeath_19_0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 229
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e5278d734384230800000000000000
+      internalID: 3623203314678783583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 229
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2403bce52a2fee0800000000000000
+      internalID: -1228741220299160926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 229
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bbe365309bb1870800000000000000
+      internalID: 8654714532905532181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 229
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf25cdbde9fbb750800000000000000
+      internalID: 6321921301431005120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_4
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 199
+        width: 102
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37766168c2c68e2a0800000000000000
+      internalID: -6707992706484377741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_5
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 169
+        width: 122
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c1cfe5b59d10c70800000000000000
+      internalID: 8935662122138606667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_6
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 149
+        width: 102
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47a3f09cf10a2ed0800000000000000
+      internalID: -2438134063992428721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_7
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 119
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618d86fc3402fe140800000000000000
+      internalID: 4751051607513815062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_8
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 119
+        width: 102
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b897451b6a58b980800000000000000
+      internalID: -8522962878833649479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_9
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 119
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1213e790f944d1510800000000000000
+      internalID: 1521447698970849569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 99
+        width: 202
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037255f283e634890800000000000000
+      internalID: -7475009768913557712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 79
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606710ba5fd3043c0800000000000000
+      internalID: -4377430712458840570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_12
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 79
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314d20e19a8305c40800000000000000
+      internalID: 5498957444023505939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 19
+        width: 142
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679d5af5ef78595c0800000000000000
+      internalID: -4209308750111712906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 79
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f484c6d5e9472b900800000000000000
+      internalID: 698749115716880463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossdeath_19_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 79
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f5329ddd63a6f60800000000000000
+      internalID: 8028289612199976841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bossdeath_19_0: 3623203314678783583
+      bossdeath_19_1: -1228741220299160926
+      bossdeath_19_10: -7475009768913557712
+      bossdeath_19_11: -4377430712458840570
+      bossdeath_19_12: 5498957444023505939
+      bossdeath_19_13: -4209308750111712906
+      bossdeath_19_14: 698749115716880463
+      bossdeath_19_15: 8028289612199976841
+      bossdeath_19_2: 8654714532905532181
+      bossdeath_19_3: 6321921301431005120
+      bossdeath_19_4: -6707992706484377741
+      bossdeath_19_5: 8935662122138606667
+      bossdeath_19_6: -2438134063992428721
+      bossdeath_19_7: 4751051607513815062
+      bossdeath_19_8: -8522962878833649479
+      bossdeath_19_9: 1521447698970849569
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -116,7 +116,8 @@ public class BossController : MonoBehaviour
     IEnumerator Morrer() 
     {
         estaVivo = false; // define que o boss não está mais vivo
-        yield return new WaitForSeconds(1f); // espera 1 segundo antes de destruir o boss
+        animator.SetBool("Morrer", true);
+        yield return new WaitForSeconds(10f); // espera 1 segundo antes de destruir o boss
         Destroy(gameObject); // destroi o objeto do boss
     }
 }
