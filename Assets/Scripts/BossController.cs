@@ -8,6 +8,7 @@ public class BossController : MonoBehaviour
     public float velocidade = 5f;
     public float vida = 100f;
     public bool estaVivo = true;
+    public bool podeMover = true;
 
     [Header("Ataque Settings")]
     public bool estaAtancando = false;
@@ -15,6 +16,12 @@ public class BossController : MonoBehaviour
     [Header("Catscene Settings")]
     public Transform pontoCentro;
     public bool catsceneAtiva = false;
+
+    [Header("Movimentações")]
+    public Transform pontoEsquerda;
+    public Transform pontoDireita;
+
+    private int lado;
 
     [Header("Raio Atack")]
     public Transform pontoEsquerdo;
@@ -32,6 +39,7 @@ public class BossController : MonoBehaviour
 
     [Header("Conexões")]
     public PlayerSetings player;
+    public GameObject EyesArena;
 
 
     void Awake()
@@ -61,6 +69,8 @@ public class BossController : MonoBehaviour
 
         if (vida <= 0) 
         {
+            EyesArena.SetActive(false);
+            podeMover = false; // define que o boss não pode mais se mover
             StartCoroutine(Morrer());
         }
     }
@@ -93,6 +103,8 @@ public class BossController : MonoBehaviour
 
         animator.SetBool("FimTransformação", true);
         velocidade = 5f; // Restaura a velocidade do boss após a catscene
+
+        StartCoroutine(MoverBoss()); // inicia a movimentação do boss após a catscene
     }
 
     void EscolherAtaque()
@@ -110,6 +122,60 @@ public class BossController : MonoBehaviour
         {
             Instantiate(raioPrefab, pontoCima.position, pontoCima.rotation);
             Instantiate(raioPrefab, pontoBaixo.position, pontoBaixo.rotation);
+        }
+    }
+
+    IEnumerator MoverBoss() 
+    {
+        while (estaVivo && podeMover == true)
+        {
+            yield return new WaitForSeconds(5f); // espera 5 segundo antes de escolher o próximo lado para se mover
+
+            lado = UnityEngine.Random.Range(0, 2); // escolhe aleatoriamente entre 0 e 1 para determinar o lado do movimento
+
+            if (lado == 0)
+            {
+                // Move para a esquerda
+                while (Mathf.Abs(transform.position.x - pontoEsquerda.position.x) > 0.01f)
+                {
+                    float novoX = Mathf.MoveTowards(transform.position.x, pontoEsquerda.position.x, velocidade * Time.deltaTime);
+                    transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
+                    yield return null;
+                }
+            }
+            else
+            {
+                // Move para a direita
+                while (Mathf.Abs(transform.position.x - pontoDireita.position.x) > 0.01f)
+                {
+                    float novoX = Mathf.MoveTowards(transform.position.x, pontoDireita.position.x, velocidade * Time.deltaTime);
+                    transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
+                    yield return null;
+                }
+            }
+
+            // Fica parado no lado por 20 segundos
+            yield return new WaitForSeconds(20f);
+
+            // Volta para o centro
+            while (Mathf.Abs(transform.position.x - pontoCentro.position.x) > 0.01f)
+            {
+                float novoX = Mathf.MoveTowards(
+                    transform.position.x,
+                    pontoCentro.position.x,
+                    velocidade * Time.deltaTime
+                );
+
+                transform.position = new Vector3(
+                    novoX,
+                    transform.position.y,
+                    transform.position.z
+                );
+
+                yield return null;
+            }
+
+            yield return new WaitForSeconds(5f); // espera 5 segundo antes de escolher o próximo lado para se mover
         }
     }
 
