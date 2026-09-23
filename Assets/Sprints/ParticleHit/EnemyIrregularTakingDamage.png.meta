@@ -1,0 +1,380 @@
+fileFormatVersion: 2
+guid: c8b45c2a76588a245aeb8cb026c9e9bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3627320378028747954
+    second: EnemyIrregularTakingDamage_0
+  - first:
+      213: -9186645368955673260
+    second: EnemyIrregularTakingDamage_1
+  - first:
+      213: 2192699144213319572
+    second: EnemyIrregularTakingDamage_2
+  - first:
+      213: 2597513075009381866
+    second: EnemyIrregularTakingDamage_3
+  - first:
+      213: -1155476303606542439
+    second: EnemyIrregularTakingDamage_4
+  - first:
+      213: 8708012369775364424
+    second: EnemyIrregularTakingDamage_5
+  - first:
+      213: -5579492693348376834
+    second: EnemyIrregularTakingDamage_6
+  - first:
+      213: 6762488819422911082
+    second: EnemyIrregularTakingDamage_7
+  - first:
+      213: 6920461617913553302
+    second: EnemyIrregularTakingDamage_8
+  - first:
+      213: 832286279976212112
+    second: EnemyIrregularTakingDamage_9
+  - first:
+      213: 4890363761099941375
+    second: EnemyIrregularTakingDamage_10
+  - first:
+      213: -7535242935333046514
+    second: EnemyIrregularTakingDamage_11
+  - first:
+      213: 1389993001145479373
+    second: EnemyIrregularTakingDamage_12
+  - first:
+      213: 1255907125869858281
+    second: EnemyIrregularTakingDamage_13
+  - first:
+      213: 2124605963087102599
+    second: EnemyIrregularTakingDamage_14
+  - first:
+      213: -583989937581183918
+    second: EnemyIrregularTakingDamage_15
+  - first:
+      213: -3554639190768104707
+    second: EnemyIrregularTakingDamage_16
+  - first:
+      213: 4841070970346261517
+    second: EnemyIrregularTakingDamage_17
+  - first:
+      213: -3130840381315697486
+    second: EnemyIrregularTakingDamage_18
+  - first:
+      213: 6228668682561679313
+    second: EnemyIrregularTakingDamage_19
+  - first:
+      213: -1248578816542249502
+    second: EnemyIrregularTakingDamage_20
+  - first:
+      213: -6238741528033955702
+    second: EnemyIrregularTakingDamage_21
+  - first:
+      213: -6313963896564704047
+    second: EnemyIrregularTakingDamage_22
+  - first:
+      213: 659259913562123418
+    second: EnemyIrregularTakingDamage_23
+  - first:
+      213: 6007464271516158696
+    second: EnemyIrregularTakingDamage_24
+  - first:
+      213: 5174479238415707153
+    second: EnemyIrregularTakingDamage_25
+  - first:
+      213: -8017258675882171423
+    second: EnemyIrregularTakingDamage_26
+  - first:
+      213: 4084382599961549573
+    second: EnemyIrregularTakingDamage_27
+  - first:
+      213: 1973493786481964156
+    second: EnemyIrregularTakingDamage_28
+  - first:
+      213: 4522970644890900643
+    second: EnemyIrregularTakingDamage_29
+  - first:
+      213: 1082218550901939296
+    second: EnemyIrregularTakingDamage_30
+  - first:
+      213: -6388226775675020489
+    second: EnemyIrregularTakingDamage_31
+  - first:
+      213: -231060819686125534
+    second: EnemyIrregularTakingDamage_32
+  - first:
+      213: 2568849494335807808
+    second: EnemyIrregularTakingDamage_33
+  - first:
+      213: -8995184941392746685
+    second: EnemyIrregularTakingDamage_34
+  - first:
+      213: 3784994991461200228
+    second: EnemyIrregularTakingDamage_35
+  - first:
+      213: 4999989058658755252
+    second: EnemyIrregularTakingDamage_36
+  - first:
+      213: -929786243090281015
+    second: EnemyIrregularTakingDamage_37
+  - first:
+      213: 7536986575399021860
+    second: EnemyIrregularTakingDamage_38
+  - first:
+      213: 6822635414906229110
+    second: EnemyIrregularTakingDamage_39
+  - first:
+      213: 1001375579827339622
+    second: EnemyIrregularTakingDamage_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EnemyIrregularTakingDamage_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 240
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e439f05a55b29adc0800000000000000
+      internalID: -3627320378028747954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularTakingDamage_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 2
+        width: 240
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 455e8e9b5ba728080800000000000000
+      internalID: -9186645368955673260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularTakingDamage_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 2
+        width: 240
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f432611480e6e10800000000000000
+      internalID: 2192699144213319572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularTakingDamage_3
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2
+        width: 240
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5ed5721683c0420800000000000000
+      internalID: 2597513075009381866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularTakingDamage_4
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 2
+        width: 240
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f86218c6ce6ffe0800000000000000
+      internalID: -1155476303606542439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EnemyIrregularTakingDamage_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2
+        width: 240
+        height: 238
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8490b200d1319d870800000000000000
+      internalID: 8708012369775364424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a35f145ad63a93842adc719d4caa5734
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":238.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      EnemyIrregularTakingDamage_0: -3627320378028747954
+      EnemyIrregularTakingDamage_1: -9186645368955673260
+      EnemyIrregularTakingDamage_2: 2192699144213319572
+      EnemyIrregularTakingDamage_3: 2597513075009381866
+      EnemyIrregularTakingDamage_4: -1155476303606542439
+      EnemyIrregularTakingDamage_5: 8708012369775364424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

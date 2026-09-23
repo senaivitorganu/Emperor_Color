@@ -17523,6 +17523,7 @@ MonoBehaviour:
   vidaInimigo: 5
   alvo: {fileID: 10297334}
   inimigoAnim: {fileID: 1241857440}
+  particulaDano: {fileID: 4341634991872038796, guid: 7822330156f802f498c760a06118431c, type: 3}
 --- !u!95 &1241857442
 Animator:
   serializedVersion: 7

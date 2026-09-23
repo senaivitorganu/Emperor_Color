@@ -18,6 +18,7 @@ public class Inimigos : MonoBehaviour
 
     [Header("Sprites Inimigo")]
     public InimigoAnimationController inimigoAnim;
+    public GameObject particulaDano;
 
 
     IEnumerator TomarDano() 
@@ -45,6 +46,9 @@ public class Inimigos : MonoBehaviour
         if (vidaInimigo > 0)
         {
             vidaInimigo -= dano; // vai subtrair a vida do inimigo com o dano recebido
+
+            Instantiate(particulaDano, transform.position, Quaternion.identity); // vai instanciar a particula de dano na posição do inimigo)
+
             StartCoroutine(TomarDano()); // vai chamar a função de tomar dano
         }
         else
