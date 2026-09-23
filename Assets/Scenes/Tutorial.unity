@@ -19536,7 +19536,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -90}
-  m_SizeDelta: {x: 400, y: 50}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1569138802
 MonoBehaviour:
@@ -19585,8 +19585,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 28
-  m_fontSizeBase: 28
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -27059,6 +27059,7 @@ MonoBehaviour:
   vidaInimigo: 5
   alvo: {fileID: 464680357}
   inimigoAnim: {fileID: 2099290897}
+  particulaDano: {fileID: 4341634991872038796, guid: 7822330156f802f498c760a06118431c, type: 3}
 --- !u!95 &2099290899
 Animator:
   serializedVersion: 7

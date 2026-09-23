@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class BossFightController : MonoBehaviour
 {
@@ -18,6 +19,10 @@ public class BossFightController : MonoBehaviour
     private bool NascerBoss = false;
     public GameObject boss;
 
+    [Header("Abrir Cena de Conclusão")]
+    public CanvasGroup telaPreta;
+    public string cenaFinal = "JogoFinalizado";
+
     [Header("Conexões")]
     public BossController bossController;
 
@@ -35,16 +40,21 @@ public class BossFightController : MonoBehaviour
 
     void Update()
     {
-        if (FaseSetting.instance.blocosPintados >= 70 && boss != null) 
+        if (FaseSetting.instance.blocosPintados >= 70 && boss != null)
         {
             NascerBoss = true;
             boss.SetActive(true);
         }
 
-        if (bossController.catsceneAtiva == true) 
+        if (bossController.catsceneAtiva == true)
         {
             StartCoroutine(DesativarHand());
             DestruirMaos();
+        }
+
+        if (FaseSetting.instance.faseConcluida == true)
+        {
+            StartCoroutine(faseConcluida());
         }
     }
 
@@ -59,7 +69,7 @@ public class BossFightController : MonoBehaviour
     }
 
 
-    IEnumerator DesativarHand() 
+    IEnumerator DesativarHand()
     {
         podeSpawnarMao = false;
         yield return new WaitForSeconds(30f);
@@ -86,5 +96,24 @@ public class BossFightController : MonoBehaviour
                 mao.bossController = bossController;
             }
         }
+    }
+
+    IEnumerator faseConcluida()
+    {
+        float tempo = 0f;
+        float duracao = 2f;
+
+        while (tempo < duracao)
+        {
+            tempo += Time.deltaTime;
+            telaPreta.alpha = Mathf.Lerp(0f, 1f, tempo / duracao);
+            yield return null;
+        }
+
+        telaPreta.alpha = 1f;
+
+        yield return new WaitForSeconds(2f);
+
+        SceneManager.LoadScene(cenaFinal);
     }
 }
