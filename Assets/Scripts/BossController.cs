@@ -163,8 +163,10 @@ public class BossController : MonoBehaviour
 
             lado = UnityEngine.Random.Range(0, 2); // escolhe aleatoriamente entre 0 e 1 para determinar o lado do movimento
 
-            if (lado == 0)
+            if (lado == 0) // move para esquerda se o lado escolhido for 0, caso contrário, move para a direita
             {
+                animator.SetBool("MoverEsquerda", true); // ativa a animação de movimento para a esquerda
+
                 // Move para a esquerda
                 while (Mathf.Abs(transform.position.x - pontoEsquerda.position.x) > 0.01f)
                 {
@@ -172,9 +174,13 @@ public class BossController : MonoBehaviour
                     transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
                     yield return null;
                 }
+
+                animator.SetBool("MoverEsquerda", false); // desativa a animação de movimento para a esquerda
             }
             else
             {
+                animator.SetBool("MoverDireita", true); // ativa a animação de movimento para a direita
+
                 // Move para a direita
                 while (Mathf.Abs(transform.position.x - pontoDireita.position.x) > 0.01f)
                 {
@@ -182,6 +188,8 @@ public class BossController : MonoBehaviour
                     transform.position = new Vector3(novoX, transform.position.y, transform.position.z);
                     yield return null;
                 }
+
+                animator.SetBool("MoverDireita", false); // desativa a animação de movimento para a direita
             }
 
             // Fica parado no lado por 20 segundos
