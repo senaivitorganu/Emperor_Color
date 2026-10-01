@@ -243,6 +243,8 @@ MonoBehaviour:
   estaVivo: 1
   dano: 3
   playerAnim: {fileID: 10297330}
+  podeDesh: 0
+  usandoDesh: 0
   atackPointFront: {fileID: 1437485987}
   atackPointBack: {fileID: 1034181023}
   atackPointRight: {fileID: 1748063762}
@@ -23151,6 +23153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86fe9373acd8a0b45992cdb14645f337, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PortalNIvel
+  player: {fileID: 10297331}
 --- !u!212 &1695943373
 SpriteRenderer:
   serializedVersion: 2
