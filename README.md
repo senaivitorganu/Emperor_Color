@@ -27,7 +27,7 @@ Durante a jornada, enfrentar desafios e colorir o mundo novamente, trazendo vida
 
 Você pode baixar a primeira versão do **Emperor Color** pelo Google Drive:
 
-👉 [**Baixar Emperor Color**](https://drive.google.com/file/d/1C-Fx-gDvAkrE1b00IvcGoOPkwOgSpV_X/view?usp=sharing)
+👉 [**Baixar Emperor Color**](https://drive.google.com/file/d/1DLSqLoEIJPi9OpXR5izmDPu2FBFtN3hC/view?usp=sharing)
 
 ---
 
