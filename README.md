@@ -27,7 +27,7 @@ Durante a jornada, enfrentar desafios e colorir o mundo novamente, trazendo vida
 
 Você pode baixar a primeira versão do **Emperor Color** pelo Google Drive:
 
-👉 [**Baixar Emperor Color**](https://drive.google.com/file/d/1DLSqLoEIJPi9OpXR5izmDPu2FBFtN3hC/view?usp=sharing)
+👉 [**Baixar Emperor Color**](https://github.com/senaivitorganu/Emperor_Color/releases/tag/v0.0.1)
 
 ---
 
@@ -59,3 +59,11 @@ Caso tenha dúvidas sobre como baixar e executar o jogo, confira o vídeo tutori
 
 - E-mail: brenosantosg3c@gmail.com
 - Instagram: @ari0n3537
+
+---
+# 🎙️ Gabriel Oliver
+**Função:** Sound Designer e Artista
+
+**Contato:**
+- Whatsapp: +55 31 971298495
+- Email: gabsoliver500@gmail.com
