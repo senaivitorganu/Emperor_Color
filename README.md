@@ -61,7 +61,7 @@ Caso tenha dúvidas sobre como baixar e executar o jogo, confira o vídeo tutori
 - Instagram: @ari0n3537
 
 ---
-# 🎙️ Gabriel Oliver
+### 🎙️ Gabriel Oliver
 **Função:** Sound Designer e Artista
 
 **Contato:**
