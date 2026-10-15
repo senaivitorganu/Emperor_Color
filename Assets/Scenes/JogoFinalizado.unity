@@ -515,7 +515,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jogo Finalizado
+  m_text: Muito Obrigado por Jogar
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 449ef1ff0e039cf4c9dbc761925de9f5, type: 2}
   m_sharedMaterial: {fileID: -5825573417466692376, guid: 449ef1ff0e039cf4c9dbc761925de9f5, type: 2}
