@@ -104,6 +104,8 @@ public class BossController : MonoBehaviour
 
     IEnumerator Cutscene()
     {
+        Music.instance.TocarBoss();
+
         float guardarVelocidade = player.velocidade; // guarda a velocidade atual do player
         player.velocidade = 0; // zera a velocidade do player durante a catscene
         catsceneAtiva = true; // ativa a catscene
