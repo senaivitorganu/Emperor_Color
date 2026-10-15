@@ -168,6 +168,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &36463469
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 36463471}
+  - component: {fileID: 36463470}
+  m_Layer: 0
+  m_Name: Creditos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &36463470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36463469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d0adae2749d744eaf1ff5203421c0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CreditosController
+  textoCreditos: {fileID: 1394058054}
+  areaCreditos: {fileID: 878619794}
+  textoFinal: {fileID: 1156620732}
+  botaoVoltar: {fileID: 1333136828}
+  velocidade: 80
+--- !u!4 &36463471
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 36463469}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 311.61414, y: 214.75964, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &442115436
 GameObject:
   m_ObjectHideFlags: 0
@@ -421,7 +470,7 @@ GameObject:
   - component: {fileID: 1156620735}
   - component: {fileID: 1156620734}
   m_Layer: 5
-  m_Name: Agradecimentos
+  m_Name: JogoFinalizado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -844,7 +893,7 @@ GameObject:
   - component: {fileID: 1394058056}
   - component: {fileID: 1394058055}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Creditos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -866,8 +915,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -704, y: -381}
-  m_SizeDelta: {x: 400, y: 50}
+  m_AnchoredPosition: {x: 0, y: -793}
+  m_SizeDelta: {x: 800, y: 642}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1394058055
 MonoBehaviour:
@@ -889,11 +938,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Feito por:
+  m_text: 'Programador
 
     Vitor Gabriel
 
-    Breno Silas'
+
+    Pixel Artist
+
+    Breno Silas
+
+
+    Sound
+    Designer
+
+    Gabriel Oliver'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 449ef1ff0e039cf4c9dbc761925de9f5, type: 2}
   m_sharedMaterial: {fileID: -5825573417466692376, guid: 449ef1ff0e039cf4c9dbc761925de9f5, type: 2}
@@ -920,15 +978,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -1060,3 +1118,4 @@ SceneRoots:
   - {fileID: 878619794}
   - {fileID: 1934559321}
   - {fileID: 6658243}
+  - {fileID: 36463471}
